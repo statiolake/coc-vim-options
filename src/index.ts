@@ -15,12 +15,46 @@ export async function activate(context: ExtensionContext): Promise<void> {
   );
 }
 
+async function getOptionsManagedByEditorConfig(): Promise<string[]> {
+  const editorConfig = await (await workspace.nvim.buffer).getVar('editorconfig');
+  if (editorConfig == null) return [];
+
+  const EDITORCONFIG_OPTION_MAP = {
+    charset: ['bomb', 'fileencoding'],
+    end_of_line: ['fileformat'],
+    indent_style: ['expandtab'],
+    indent_size: ['shiftwidth', 'softtabstop'],
+    insert_final_newline: ['fixendofline', 'endofline'],
+    max_line_length: ['textwidth'],
+    tab_width: ['tabstop'],
+  };
+
+  const options: string[] = [];
+  for (const property in EDITORCONFIG_OPTION_MAP) {
+    if (editorConfig[property]) {
+      options.push(...EDITORCONFIG_OPTION_MAP[property]);
+    }
+  }
+
+  return options;
+}
+
 async function updateOptions(): Promise<void> {
   const buffer = await workspace.nvim.buffer;
   const doc = workspace.getDocument(buffer.id);
+
+  // @ts-ignore: type definition for workspace.getConfiguration() is old
   const config = workspace.getConfiguration('vim-options', doc);
-  channel.appendLine(JSON.stringify(config));
+  const editorConfigOptions = await getOptionsManagedByEditorConfig();
+  channel.appendLine('Config: ' + JSON.stringify(config));
+  channel.appendLine('EditorConfig: ' + JSON.stringify(editorConfigOptions));
+
   for (const option in config) {
+    if (editorConfigOptions.includes(option)) {
+      channel.appendLine(`ignore: ${option}; keep EditorConfig value as is`);
+      continue;
+    }
+
     await buffer.setOption(option, config[option]);
     channel.appendLine(`set: ${option} => ${await buffer.getOption(option)}`);
   }
