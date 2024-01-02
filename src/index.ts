@@ -41,8 +41,8 @@ async function getOptionsManagedByEditorConfig(): Promise<string[]> {
 
 async function updateOptions(): Promise<void> {
   const buffer = await workspace.nvim.buffer;
-  const doc = workspace.getDocument(buffer.id);
-
+  const doc = await workspace.document;
+  channel.appendLine(`buffer id: ${buffer.id}; language: ${doc.textDocument.languageId}`);
   // @ts-ignore: type definition for workspace.getConfiguration() is old
   const config = workspace.getConfiguration('vim-options', doc);
   const editorConfigOptions = await getOptionsManagedByEditorConfig();
