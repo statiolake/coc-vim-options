@@ -55,7 +55,11 @@ async function updateOptions(): Promise<void> {
       continue;
     }
 
-    await buffer.setOption(option, config[option]);
-    channel.appendLine(`set: ${option} => ${await buffer.getOption(option)}`);
+    try {
+      await buffer.setOption(option, config[option]);
+      channel.appendLine(`set: ${option} => ${await buffer.getOption(option)}`);
+    } catch (e) {
+      channel.appendLine(`FAILED: set ${option}; reason: {e}`);
+    }
   }
 }
