@@ -1,6 +1,6 @@
 {
   "name": "@statiolake/coc-vim-options",
-  "version": "0.3.1",
+  "version": "0.3.0",
   "description": "Set vim options from coc-settings.json",
   "author": "statiolake <statiolake@gmail.com>",
   "license": "MIT",
@@ -53,7 +53,8 @@
             "null"
           ],
           "default": null,
-          "description": "allow CTRL-_ in Insert mode. (Vim option: 'allowrevins', short: 'ari')"
+          "description": "allow CTRL-_ in Insert mode. (Vim option: 'allowrevins', short: 'ari')",
+          "scope": "language-overridable"
         },
         "vim-options.ambiwidth": {
           "type": [
@@ -65,7 +66,8 @@
             "null"
           ],
           "default": null,
-          "description": "what to do with Unicode chars of ambiguous width. (Vim option: 'ambiwidth', short: 'ambw')"
+          "description": "what to do with Unicode chars of ambiguous width. (Vim option: 'ambiwidth', short: 'ambw')",
+          "scope": "language-overridable"
         },
         "vim-options.arabic": {
           "type": [
@@ -77,7 +79,8 @@
             "null"
           ],
           "default": null,
-          "description": "for Arabic as a default second language. (Vim option: 'arabic', short: 'arab')"
+          "description": "for Arabic as a default second language. (Vim option: 'arabic', short: 'arab')",
+          "scope": "language-overridable"
         },
         "vim-options.arabicshape": {
           "type": [
@@ -89,7 +92,8 @@
             "null"
           ],
           "default": null,
-          "description": "do shaping for Arabic characters. (Vim option: 'arabicshape', short: 'arshape')"
+          "description": "do shaping for Arabic characters. (Vim option: 'arabicshape', short: 'arshape')",
+          "scope": "language-overridable"
         },
         "vim-options.autochdir": {
           "type": [
@@ -101,7 +105,8 @@
             "null"
           ],
           "default": null,
-          "description": "change directory to the file in the current window. (Vim option: 'autochdir', short: 'acd')"
+          "description": "change directory to the file in the current window. (Vim option: 'autochdir', short: 'acd')",
+          "scope": "language-overridable"
         },
         "vim-options.autoindent": {
           "type": [
@@ -113,7 +118,8 @@
             "null"
           ],
           "default": null,
-          "description": "take indent for new line from previous line. (Vim option: 'autoindent', short: 'ai')"
+          "description": "take indent for new line from previous line. (Vim option: 'autoindent', short: 'ai')",
+          "scope": "language-overridable"
         },
         "vim-options.autoread": {
           "type": [
@@ -125,7 +131,8 @@
             "null"
           ],
           "default": null,
-          "description": "autom. read file when changed outside of Vim. (Vim option: 'autoread', short: 'ar')"
+          "description": "autom. read file when changed outside of Vim. (Vim option: 'autoread', short: 'ar')",
+          "scope": "language-overridable"
         },
         "vim-options.autowrite": {
           "type": [
@@ -137,7 +144,8 @@
             "null"
           ],
           "default": null,
-          "description": "automatically write file if changed. (Vim option: 'autowrite', short: 'aw')"
+          "description": "automatically write file if changed. (Vim option: 'autowrite', short: 'aw')",
+          "scope": "language-overridable"
         },
         "vim-options.autowriteall": {
           "type": [
@@ -149,7 +157,8 @@
             "null"
           ],
           "default": null,
-          "description": "as 'autowrite', but works with more commands. (Vim option: 'autowriteall', short: 'awa')"
+          "description": "as 'autowrite', but works with more commands. (Vim option: 'autowriteall', short: 'awa')",
+          "scope": "language-overridable"
         },
         "vim-options.background": {
           "type": [
@@ -161,7 +170,8 @@
             "null"
           ],
           "default": null,
-          "description": "\"dark\" or \"light\", used for highlight colors. (Vim option: 'background', short: 'bg')"
+          "description": "\"dark\" or \"light\", used for highlight colors. (Vim option: 'background', short: 'bg')",
+          "scope": "language-overridable"
         },
         "vim-options.backspace": {
           "type": [
@@ -173,7 +183,8 @@
             "null"
           ],
           "default": null,
-          "description": "how backspace works at start of line. (Vim option: 'backspace', short: 'bs')"
+          "description": "how backspace works at start of line. (Vim option: 'backspace', short: 'bs')",
+          "scope": "language-overridable"
         },
         "vim-options.backup": {
           "type": [
@@ -185,7 +196,8 @@
             "null"
           ],
           "default": null,
-          "description": "keep backup file after overwriting a file. (Vim option: 'backup', short: 'bk')"
+          "description": "keep backup file after overwriting a file. (Vim option: 'backup', short: 'bk')",
+          "scope": "language-overridable"
         },
         "vim-options.backupcopy": {
           "type": [
@@ -197,7 +209,8 @@
             "null"
           ],
           "default": null,
-          "description": "make backup as a copy, don't rename the file. (Vim option: 'backupcopy', short: 'bkc')"
+          "description": "make backup as a copy, don't rename the file. (Vim option: 'backupcopy', short: 'bkc')",
+          "scope": "language-overridable"
         },
         "vim-options.backupdir": {
           "type": [
@@ -209,7 +222,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of directories for the backup file. (Vim option: 'backupdir', short: 'bdir')"
+          "description": "list of directories for the backup file. (Vim option: 'backupdir', short: 'bdir')",
+          "scope": "language-overridable"
         },
         "vim-options.backupext": {
           "type": [
@@ -221,7 +235,8 @@
             "null"
           ],
           "default": null,
-          "description": "extension used for the backup file. (Vim option: 'backupext', short: 'bex')"
+          "description": "extension used for the backup file. (Vim option: 'backupext', short: 'bex')",
+          "scope": "language-overridable"
         },
         "vim-options.backupskip": {
           "type": [
@@ -233,7 +248,8 @@
             "null"
           ],
           "default": null,
-          "description": "no backup for files that match these patterns. (Vim option: 'backupskip', short: 'bsk')"
+          "description": "no backup for files that match these patterns. (Vim option: 'backupskip', short: 'bsk')",
+          "scope": "language-overridable"
         },
         "vim-options.belloff": {
           "type": [
@@ -245,7 +261,8 @@
             "null"
           ],
           "default": null,
-          "description": "do not ring the bell for these reasons. (Vim option: 'belloff', short: 'bo')"
+          "description": "do not ring the bell for these reasons. (Vim option: 'belloff', short: 'bo')",
+          "scope": "language-overridable"
         },
         "vim-options.binary": {
           "type": [
@@ -257,7 +274,8 @@
             "null"
           ],
           "default": null,
-          "description": "read/write/edit file in binary mode. (Vim option: 'binary', short: 'bin')"
+          "description": "read/write/edit file in binary mode. (Vim option: 'binary', short: 'bin')",
+          "scope": "language-overridable"
         },
         "vim-options.bomb": {
           "type": [
@@ -269,7 +287,8 @@
             "null"
           ],
           "default": null,
-          "description": "prepend a Byte Order Mark to the file. (Vim option: 'bomb', short: 'bomb')"
+          "description": "prepend a Byte Order Mark to the file. (Vim option: 'bomb', short: 'bomb')",
+          "scope": "language-overridable"
         },
         "vim-options.breakat": {
           "type": [
@@ -281,7 +300,8 @@
             "null"
           ],
           "default": null,
-          "description": "characters that may cause a line break. (Vim option: 'breakat', short: 'brk')"
+          "description": "characters that may cause a line break. (Vim option: 'breakat', short: 'brk')",
+          "scope": "language-overridable"
         },
         "vim-options.breakindent": {
           "type": [
@@ -293,7 +313,8 @@
             "null"
           ],
           "default": null,
-          "description": "wrapped line repeats indent. (Vim option: 'breakindent', short: 'bri')"
+          "description": "wrapped line repeats indent. (Vim option: 'breakindent', short: 'bri')",
+          "scope": "language-overridable"
         },
         "vim-options.breakindentopt": {
           "type": [
@@ -305,7 +326,8 @@
             "null"
           ],
           "default": null,
-          "description": "settings for 'breakindent'. (Vim option: 'breakindentopt', short: 'briopt')"
+          "description": "settings for 'breakindent'. (Vim option: 'breakindentopt', short: 'briopt')",
+          "scope": "language-overridable"
         },
         "vim-options.browsedir": {
           "type": [
@@ -317,7 +339,8 @@
             "null"
           ],
           "default": null,
-          "description": "which directory to start browsing in. (Vim option: 'browsedir', short: 'bsdir')"
+          "description": "which directory to start browsing in. (Vim option: 'browsedir', short: 'bsdir')",
+          "scope": "language-overridable"
         },
         "vim-options.bufhidden": {
           "type": [
@@ -329,7 +352,8 @@
             "null"
           ],
           "default": null,
-          "description": "what to do when buffer is no longer in window. (Vim option: 'bufhidden', short: 'bh')"
+          "description": "what to do when buffer is no longer in window. (Vim option: 'bufhidden', short: 'bh')",
+          "scope": "language-overridable"
         },
         "vim-options.buflisted": {
           "type": [
@@ -341,7 +365,8 @@
             "null"
           ],
           "default": null,
-          "description": "whether the buffer shows up in the buffer list. (Vim option: 'buflisted', short: 'bl')"
+          "description": "whether the buffer shows up in the buffer list. (Vim option: 'buflisted', short: 'bl')",
+          "scope": "language-overridable"
         },
         "vim-options.buftype": {
           "type": [
@@ -353,7 +378,8 @@
             "null"
           ],
           "default": null,
-          "description": "special type of buffer. (Vim option: 'buftype', short: 'bt')"
+          "description": "special type of buffer. (Vim option: 'buftype', short: 'bt')",
+          "scope": "language-overridable"
         },
         "vim-options.casemap": {
           "type": [
@@ -365,7 +391,8 @@
             "null"
           ],
           "default": null,
-          "description": "specifies how case of letters is changed. (Vim option: 'casemap', short: 'cmp')"
+          "description": "specifies how case of letters is changed. (Vim option: 'casemap', short: 'cmp')",
+          "scope": "language-overridable"
         },
         "vim-options.cdhome": {
           "type": [
@@ -377,7 +404,8 @@
             "null"
           ],
           "default": null,
-          "description": "change directory to the home directory by \":cd\". (Vim option: 'cdhome', short: 'cdh')"
+          "description": "change directory to the home directory by \":cd\". (Vim option: 'cdhome', short: 'cdh')",
+          "scope": "language-overridable"
         },
         "vim-options.cdpath": {
           "type": [
@@ -389,7 +417,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of directories searched with \":cd\". (Vim option: 'cdpath', short: 'cd')"
+          "description": "list of directories searched with \":cd\". (Vim option: 'cdpath', short: 'cd')",
+          "scope": "language-overridable"
         },
         "vim-options.cedit": {
           "type": [
@@ -401,7 +430,8 @@
             "null"
           ],
           "default": null,
-          "description": "key used to open the command-line window. (Vim option: 'cedit', short: 'cedit')"
+          "description": "key used to open the command-line window. (Vim option: 'cedit', short: 'cedit')",
+          "scope": "language-overridable"
         },
         "vim-options.charconvert": {
           "type": [
@@ -413,7 +443,8 @@
             "null"
           ],
           "default": null,
-          "description": "expression for character encoding conversion. (Vim option: 'charconvert', short: 'ccv')"
+          "description": "expression for character encoding conversion. (Vim option: 'charconvert', short: 'ccv')",
+          "scope": "language-overridable"
         },
         "vim-options.chistory": {
           "type": [
@@ -425,7 +456,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum number of quickfix lists in history. (Vim option: 'chistory', short: 'chi')"
+          "description": "maximum number of quickfix lists in history. (Vim option: 'chistory', short: 'chi')",
+          "scope": "language-overridable"
         },
         "vim-options.cindent": {
           "type": [
@@ -437,7 +469,8 @@
             "null"
           ],
           "default": null,
-          "description": "do C program indenting. (Vim option: 'cindent', short: 'cin')"
+          "description": "do C program indenting. (Vim option: 'cindent', short: 'cin')",
+          "scope": "language-overridable"
         },
         "vim-options.cinkeys": {
           "type": [
@@ -449,7 +482,8 @@
             "null"
           ],
           "default": null,
-          "description": "keys that trigger indent when 'cindent' is set. (Vim option: 'cinkeys', short: 'cink')"
+          "description": "keys that trigger indent when 'cindent' is set. (Vim option: 'cinkeys', short: 'cink')",
+          "scope": "language-overridable"
         },
         "vim-options.cinoptions": {
           "type": [
@@ -461,7 +495,8 @@
             "null"
           ],
           "default": null,
-          "description": "how to do indenting when 'cindent' is set. (Vim option: 'cinoptions', short: 'cino')"
+          "description": "how to do indenting when 'cindent' is set. (Vim option: 'cinoptions', short: 'cino')",
+          "scope": "language-overridable"
         },
         "vim-options.cinscopedecls": {
           "type": [
@@ -473,7 +508,8 @@
             "null"
           ],
           "default": null,
-          "description": "words that are recognized by 'cino-g'. (Vim option: 'cinscopedecls', short: 'cinsd')"
+          "description": "words that are recognized by 'cino-g'. (Vim option: 'cinscopedecls', short: 'cinsd')",
+          "scope": "language-overridable"
         },
         "vim-options.cinwords": {
           "type": [
@@ -485,7 +521,8 @@
             "null"
           ],
           "default": null,
-          "description": "words where 'si' and 'cin' add an indent. (Vim option: 'cinwords', short: 'cinw')"
+          "description": "words where 'si' and 'cin' add an indent. (Vim option: 'cinwords', short: 'cinw')",
+          "scope": "language-overridable"
         },
         "vim-options.clipboard": {
           "type": [
@@ -497,7 +534,8 @@
             "null"
           ],
           "default": null,
-          "description": "use the clipboard as the unnamed register. (Vim option: 'clipboard', short: 'cb')"
+          "description": "use the clipboard as the unnamed register. (Vim option: 'clipboard', short: 'cb')",
+          "scope": "language-overridable"
         },
         "vim-options.cmdheight": {
           "type": [
@@ -509,7 +547,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of lines to use for the command-line. (Vim option: 'cmdheight', short: 'ch')"
+          "description": "number of lines to use for the command-line. (Vim option: 'cmdheight', short: 'ch')",
+          "scope": "language-overridable"
         },
         "vim-options.cmdwinheight": {
           "type": [
@@ -521,7 +560,8 @@
             "null"
           ],
           "default": null,
-          "description": "height of the command-line window. (Vim option: 'cmdwinheight', short: 'cwh')"
+          "description": "height of the command-line window. (Vim option: 'cmdwinheight', short: 'cwh')",
+          "scope": "language-overridable"
         },
         "vim-options.colorcolumn": {
           "type": [
@@ -533,7 +573,8 @@
             "null"
           ],
           "default": null,
-          "description": "columns to highlight. (Vim option: 'colorcolumn', short: 'cc')"
+          "description": "columns to highlight. (Vim option: 'colorcolumn', short: 'cc')",
+          "scope": "language-overridable"
         },
         "vim-options.columns": {
           "type": [
@@ -545,7 +586,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of columns in the display. (Vim option: 'columns', short: 'co')"
+          "description": "number of columns in the display. (Vim option: 'columns', short: 'co')",
+          "scope": "language-overridable"
         },
         "vim-options.comments": {
           "type": [
@@ -557,7 +599,8 @@
             "null"
           ],
           "default": null,
-          "description": "patterns that can start a comment line. (Vim option: 'comments', short: 'com')"
+          "description": "patterns that can start a comment line. (Vim option: 'comments', short: 'com')",
+          "scope": "language-overridable"
         },
         "vim-options.commentstring": {
           "type": [
@@ -569,7 +612,8 @@
             "null"
           ],
           "default": null,
-          "description": "template for comments; used for fold marker. (Vim option: 'commentstring', short: 'cms')"
+          "description": "template for comments; used for fold marker. (Vim option: 'commentstring', short: 'cms')",
+          "scope": "language-overridable"
         },
         "vim-options.complete": {
           "type": [
@@ -581,7 +625,8 @@
             "null"
           ],
           "default": null,
-          "description": "specify how Insert mode completion works. (Vim option: 'complete', short: 'cpt')"
+          "description": "specify how Insert mode completion works. (Vim option: 'complete', short: 'cpt')",
+          "scope": "language-overridable"
         },
         "vim-options.completefunc": {
           "type": [
@@ -593,7 +638,8 @@
             "null"
           ],
           "default": null,
-          "description": "function to be used for Insert mode completion. (Vim option: 'completefunc', short: 'cfu')"
+          "description": "function to be used for Insert mode completion. (Vim option: 'completefunc', short: 'cfu')",
+          "scope": "language-overridable"
         },
         "vim-options.completeopt": {
           "type": [
@@ -605,7 +651,8 @@
             "null"
           ],
           "default": null,
-          "description": "options for Insert mode completion. (Vim option: 'completeopt', short: 'cot')"
+          "description": "options for Insert mode completion. (Vim option: 'completeopt', short: 'cot')",
+          "scope": "language-overridable"
         },
         "vim-options.completeslash": {
           "type": [
@@ -617,7 +664,8 @@
             "null"
           ],
           "default": null,
-          "description": "like 'shellslash' for completion. (Vim option: 'completeslash', short: 'csl')"
+          "description": "like 'shellslash' for completion. (Vim option: 'completeslash', short: 'csl')",
+          "scope": "language-overridable"
         },
         "vim-options.concealcursor": {
           "type": [
@@ -629,7 +677,8 @@
             "null"
           ],
           "default": null,
-          "description": "whether concealable text is hidden in cursor line. (Vim option: 'concealcursor', short: 'cocu')"
+          "description": "whether concealable text is hidden in cursor line. (Vim option: 'concealcursor', short: 'cocu')",
+          "scope": "language-overridable"
         },
         "vim-options.conceallevel": {
           "type": [
@@ -641,7 +690,8 @@
             "null"
           ],
           "default": null,
-          "description": "whether concealable text is shown or hidden. (Vim option: 'conceallevel', short: 'cole')"
+          "description": "whether concealable text is shown or hidden. (Vim option: 'conceallevel', short: 'cole')",
+          "scope": "language-overridable"
         },
         "vim-options.confirm": {
           "type": [
@@ -653,7 +703,8 @@
             "null"
           ],
           "default": null,
-          "description": "ask what to do about unsaved/read-only files. (Vim option: 'confirm', short: 'cf')"
+          "description": "ask what to do about unsaved/read-only files. (Vim option: 'confirm', short: 'cf')",
+          "scope": "language-overridable"
         },
         "vim-options.copyindent": {
           "type": [
@@ -665,7 +716,8 @@
             "null"
           ],
           "default": null,
-          "description": "make 'autoindent' use existing indent structure. (Vim option: 'copyindent', short: 'ci')"
+          "description": "make 'autoindent' use existing indent structure. (Vim option: 'copyindent', short: 'ci')",
+          "scope": "language-overridable"
         },
         "vim-options.cpoptions": {
           "type": [
@@ -677,7 +729,8 @@
             "null"
           ],
           "default": null,
-          "description": "flags for Vi-compatible behavior. (Vim option: 'cpoptions', short: 'cpo')"
+          "description": "flags for Vi-compatible behavior. (Vim option: 'cpoptions', short: 'cpo')",
+          "scope": "language-overridable"
         },
         "vim-options.cursorbind": {
           "type": [
@@ -689,7 +742,8 @@
             "null"
           ],
           "default": null,
-          "description": "move cursor in window as it moves in other windows. (Vim option: 'cursorbind', short: 'crb')"
+          "description": "move cursor in window as it moves in other windows. (Vim option: 'cursorbind', short: 'crb')",
+          "scope": "language-overridable"
         },
         "vim-options.cursorcolumn": {
           "type": [
@@ -701,7 +755,8 @@
             "null"
           ],
           "default": null,
-          "description": "highlight the screen column of the cursor. (Vim option: 'cursorcolumn', short: 'cuc')"
+          "description": "highlight the screen column of the cursor. (Vim option: 'cursorcolumn', short: 'cuc')",
+          "scope": "language-overridable"
         },
         "vim-options.cursorline": {
           "type": [
@@ -713,7 +768,8 @@
             "null"
           ],
           "default": null,
-          "description": "highlight the screen line of the cursor. (Vim option: 'cursorline', short: 'cul')"
+          "description": "highlight the screen line of the cursor. (Vim option: 'cursorline', short: 'cul')",
+          "scope": "language-overridable"
         },
         "vim-options.cursorlineopt": {
           "type": [
@@ -725,7 +781,8 @@
             "null"
           ],
           "default": null,
-          "description": "settings for 'cursorline'. (Vim option: 'cursorlineopt', short: 'culopt')"
+          "description": "settings for 'cursorline'. (Vim option: 'cursorlineopt', short: 'culopt')",
+          "scope": "language-overridable"
         },
         "vim-options.debug": {
           "type": [
@@ -737,7 +794,8 @@
             "null"
           ],
           "default": null,
-          "description": "set to \"msg\" to see all error messages. (Vim option: 'debug', short: 'debug')"
+          "description": "set to \"msg\" to see all error messages. (Vim option: 'debug', short: 'debug')",
+          "scope": "language-overridable"
         },
         "vim-options.define": {
           "type": [
@@ -749,7 +807,8 @@
             "null"
           ],
           "default": null,
-          "description": "pattern to be used to find a macro definition. (Vim option: 'define', short: 'def')"
+          "description": "pattern to be used to find a macro definition. (Vim option: 'define', short: 'def')",
+          "scope": "language-overridable"
         },
         "vim-options.delcombine": {
           "type": [
@@ -761,7 +820,8 @@
             "null"
           ],
           "default": null,
-          "description": "delete combining characters on their own. (Vim option: 'delcombine', short: 'deco')"
+          "description": "delete combining characters on their own. (Vim option: 'delcombine', short: 'deco')",
+          "scope": "language-overridable"
         },
         "vim-options.dictionary": {
           "type": [
@@ -773,7 +833,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of file names used for keyword completion. (Vim option: 'dictionary', short: 'dict')"
+          "description": "list of file names used for keyword completion. (Vim option: 'dictionary', short: 'dict')",
+          "scope": "language-overridable"
         },
         "vim-options.diff": {
           "type": [
@@ -785,7 +846,8 @@
             "null"
           ],
           "default": null,
-          "description": "use diff mode for the current window. (Vim option: 'diff', short: 'diff')"
+          "description": "use diff mode for the current window. (Vim option: 'diff', short: 'diff')",
+          "scope": "language-overridable"
         },
         "vim-options.diffexpr": {
           "type": [
@@ -797,7 +859,8 @@
             "null"
           ],
           "default": null,
-          "description": "expression used to obtain a diff file. (Vim option: 'diffexpr', short: 'dex')"
+          "description": "expression used to obtain a diff file. (Vim option: 'diffexpr', short: 'dex')",
+          "scope": "language-overridable"
         },
         "vim-options.diffopt": {
           "type": [
@@ -809,7 +872,8 @@
             "null"
           ],
           "default": null,
-          "description": "options for using diff mode. (Vim option: 'diffopt', short: 'dip')"
+          "description": "options for using diff mode. (Vim option: 'diffopt', short: 'dip')",
+          "scope": "language-overridable"
         },
         "vim-options.digraph": {
           "type": [
@@ -821,7 +885,8 @@
             "null"
           ],
           "default": null,
-          "description": "enable the entering of digraphs in Insert mode. (Vim option: 'digraph', short: 'dg')"
+          "description": "enable the entering of digraphs in Insert mode. (Vim option: 'digraph', short: 'dg')",
+          "scope": "language-overridable"
         },
         "vim-options.directory": {
           "type": [
@@ -833,7 +898,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of directory names for the swap file. (Vim option: 'directory', short: 'dir')"
+          "description": "list of directory names for the swap file. (Vim option: 'directory', short: 'dir')",
+          "scope": "language-overridable"
         },
         "vim-options.display": {
           "type": [
@@ -845,7 +911,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of flags for how to display text. (Vim option: 'display', short: 'dy')"
+          "description": "list of flags for how to display text. (Vim option: 'display', short: 'dy')",
+          "scope": "language-overridable"
         },
         "vim-options.eadirection": {
           "type": [
@@ -857,7 +924,8 @@
             "null"
           ],
           "default": null,
-          "description": "in which direction 'equalalways' works. (Vim option: 'eadirection', short: 'ead')"
+          "description": "in which direction 'equalalways' works. (Vim option: 'eadirection', short: 'ead')",
+          "scope": "language-overridable"
         },
         "vim-options.encoding": {
           "type": [
@@ -869,7 +937,8 @@
             "null"
           ],
           "default": null,
-          "description": "encoding used internally. (Vim option: 'encoding', short: 'enc')"
+          "description": "encoding used internally. (Vim option: 'encoding', short: 'enc')",
+          "scope": "language-overridable"
         },
         "vim-options.endoffile": {
           "type": [
@@ -881,7 +950,8 @@
             "null"
           ],
           "default": null,
-          "description": "write CTRL-Z at end of the file. (Vim option: 'endoffile', short: 'eof')"
+          "description": "write CTRL-Z at end of the file. (Vim option: 'endoffile', short: 'eof')",
+          "scope": "language-overridable"
         },
         "vim-options.endofline": {
           "type": [
@@ -893,7 +963,8 @@
             "null"
           ],
           "default": null,
-          "description": "write <EOL> for last line in file. (Vim option: 'endofline', short: 'eol')"
+          "description": "write <EOL> for last line in file. (Vim option: 'endofline', short: 'eol')",
+          "scope": "language-overridable"
         },
         "vim-options.equalalways": {
           "type": [
@@ -905,7 +976,8 @@
             "null"
           ],
           "default": null,
-          "description": "windows are automatically made the same size. (Vim option: 'equalalways', short: 'ea')"
+          "description": "windows are automatically made the same size. (Vim option: 'equalalways', short: 'ea')",
+          "scope": "language-overridable"
         },
         "vim-options.equalprg": {
           "type": [
@@ -917,7 +989,8 @@
             "null"
           ],
           "default": null,
-          "description": "external program to use for \"=\" command. (Vim option: 'equalprg', short: 'ep')"
+          "description": "external program to use for \"=\" command. (Vim option: 'equalprg', short: 'ep')",
+          "scope": "language-overridable"
         },
         "vim-options.errorbells": {
           "type": [
@@ -929,7 +1002,8 @@
             "null"
           ],
           "default": null,
-          "description": "ring the bell for error messages. (Vim option: 'errorbells', short: 'eb')"
+          "description": "ring the bell for error messages. (Vim option: 'errorbells', short: 'eb')",
+          "scope": "language-overridable"
         },
         "vim-options.errorfile": {
           "type": [
@@ -941,7 +1015,8 @@
             "null"
           ],
           "default": null,
-          "description": "name of the errorfile for the QuickFix mode. (Vim option: 'errorfile', short: 'ef')"
+          "description": "name of the errorfile for the QuickFix mode. (Vim option: 'errorfile', short: 'ef')",
+          "scope": "language-overridable"
         },
         "vim-options.errorformat": {
           "type": [
@@ -953,7 +1028,8 @@
             "null"
           ],
           "default": null,
-          "description": "description of the lines in the error file. (Vim option: 'errorformat', short: 'efm')"
+          "description": "description of the lines in the error file. (Vim option: 'errorformat', short: 'efm')",
+          "scope": "language-overridable"
         },
         "vim-options.eventignore": {
           "type": [
@@ -965,7 +1041,8 @@
             "null"
           ],
           "default": null,
-          "description": "autocommand events that are ignored. (Vim option: 'eventignore', short: 'ei')"
+          "description": "autocommand events that are ignored. (Vim option: 'eventignore', short: 'ei')",
+          "scope": "language-overridable"
         },
         "vim-options.eventignorewin": {
           "type": [
@@ -977,7 +1054,8 @@
             "null"
           ],
           "default": null,
-          "description": "autocommand events that are ignored in a window. (Vim option: 'eventignorewin', short: 'eiw')"
+          "description": "autocommand events that are ignored in a window. (Vim option: 'eventignorewin', short: 'eiw')",
+          "scope": "language-overridable"
         },
         "vim-options.expandtab": {
           "type": [
@@ -989,7 +1067,8 @@
             "null"
           ],
           "default": null,
-          "description": "use spaces when <Tab> is inserted. (Vim option: 'expandtab', short: 'et')"
+          "description": "use spaces when <Tab> is inserted. (Vim option: 'expandtab', short: 'et')",
+          "scope": "language-overridable"
         },
         "vim-options.exrc": {
           "type": [
@@ -1001,7 +1080,8 @@
             "null"
           ],
           "default": null,
-          "description": "read init files in the current directory. (Vim option: 'exrc', short: 'ex')"
+          "description": "read init files in the current directory. (Vim option: 'exrc', short: 'ex')",
+          "scope": "language-overridable"
         },
         "vim-options.fileencoding": {
           "type": [
@@ -1013,7 +1093,8 @@
             "null"
           ],
           "default": null,
-          "description": "file encoding for multibyte text. (Vim option: 'fileencoding', short: 'fenc')"
+          "description": "file encoding for multibyte text. (Vim option: 'fileencoding', short: 'fenc')",
+          "scope": "language-overridable"
         },
         "vim-options.fileencodings": {
           "type": [
@@ -1025,7 +1106,8 @@
             "null"
           ],
           "default": null,
-          "description": "automatically detected character encodings. (Vim option: 'fileencodings', short: 'fencs')"
+          "description": "automatically detected character encodings. (Vim option: 'fileencodings', short: 'fencs')",
+          "scope": "language-overridable"
         },
         "vim-options.fileformat": {
           "type": [
@@ -1037,7 +1119,8 @@
             "null"
           ],
           "default": null,
-          "description": "file format used for file I/O. (Vim option: 'fileformat', short: 'ff')"
+          "description": "file format used for file I/O. (Vim option: 'fileformat', short: 'ff')",
+          "scope": "language-overridable"
         },
         "vim-options.fileformats": {
           "type": [
@@ -1049,7 +1132,8 @@
             "null"
           ],
           "default": null,
-          "description": "automatically detected values for 'fileformat'. (Vim option: 'fileformats', short: 'ffs')"
+          "description": "automatically detected values for 'fileformat'. (Vim option: 'fileformats', short: 'ffs')",
+          "scope": "language-overridable"
         },
         "vim-options.fileignorecase": {
           "type": [
@@ -1061,7 +1145,8 @@
             "null"
           ],
           "default": null,
-          "description": "ignore case when using file names. (Vim option: 'fileignorecase', short: 'fic')"
+          "description": "ignore case when using file names. (Vim option: 'fileignorecase', short: 'fic')",
+          "scope": "language-overridable"
         },
         "vim-options.filetype": {
           "type": [
@@ -1073,7 +1158,8 @@
             "null"
           ],
           "default": null,
-          "description": "type of file, used for autocommands. (Vim option: 'filetype', short: 'ft')"
+          "description": "type of file, used for autocommands. (Vim option: 'filetype', short: 'ft')",
+          "scope": "language-overridable"
         },
         "vim-options.fillchars": {
           "type": [
@@ -1085,7 +1171,8 @@
             "null"
           ],
           "default": null,
-          "description": "characters to use for displaying special items. (Vim option: 'fillchars', short: 'fcs')"
+          "description": "characters to use for displaying special items. (Vim option: 'fillchars', short: 'fcs')",
+          "scope": "language-overridable"
         },
         "vim-options.findfunc": {
           "type": [
@@ -1097,7 +1184,8 @@
             "null"
           ],
           "default": null,
-          "description": "function to be called for the |:find| command. (Vim option: 'findfunc', short: 'ffu')"
+          "description": "function to be called for the |:find| command. (Vim option: 'findfunc', short: 'ffu')",
+          "scope": "language-overridable"
         },
         "vim-options.fixendofline": {
           "type": [
@@ -1109,7 +1197,8 @@
             "null"
           ],
           "default": null,
-          "description": "make sure last line in file has <EOL>. (Vim option: 'fixendofline', short: 'fixeol')"
+          "description": "make sure last line in file has <EOL>. (Vim option: 'fixendofline', short: 'fixeol')",
+          "scope": "language-overridable"
         },
         "vim-options.foldclose": {
           "type": [
@@ -1121,7 +1210,8 @@
             "null"
           ],
           "default": null,
-          "description": "close a fold when the cursor leaves it. (Vim option: 'foldclose', short: 'fcl')"
+          "description": "close a fold when the cursor leaves it. (Vim option: 'foldclose', short: 'fcl')",
+          "scope": "language-overridable"
         },
         "vim-options.foldcolumn": {
           "type": [
@@ -1133,7 +1223,8 @@
             "null"
           ],
           "default": null,
-          "description": "width of the column used to indicate folds. (Vim option: 'foldcolumn', short: 'fdc')"
+          "description": "width of the column used to indicate folds. (Vim option: 'foldcolumn', short: 'fdc')",
+          "scope": "language-overridable"
         },
         "vim-options.foldenable": {
           "type": [
@@ -1145,7 +1236,8 @@
             "null"
           ],
           "default": null,
-          "description": "set to display all folds open. (Vim option: 'foldenable', short: 'fen')"
+          "description": "set to display all folds open. (Vim option: 'foldenable', short: 'fen')",
+          "scope": "language-overridable"
         },
         "vim-options.foldexpr": {
           "type": [
@@ -1157,7 +1249,8 @@
             "null"
           ],
           "default": null,
-          "description": "expression used when 'foldmethod' is \"expr\". (Vim option: 'foldexpr', short: 'fde')"
+          "description": "expression used when 'foldmethod' is \"expr\". (Vim option: 'foldexpr', short: 'fde')",
+          "scope": "language-overridable"
         },
         "vim-options.foldignore": {
           "type": [
@@ -1169,7 +1262,8 @@
             "null"
           ],
           "default": null,
-          "description": "ignore lines when 'foldmethod' is \"indent\". (Vim option: 'foldignore', short: 'fdi')"
+          "description": "ignore lines when 'foldmethod' is \"indent\". (Vim option: 'foldignore', short: 'fdi')",
+          "scope": "language-overridable"
         },
         "vim-options.foldlevel": {
           "type": [
@@ -1181,7 +1275,8 @@
             "null"
           ],
           "default": null,
-          "description": "close folds with a level higher than this. (Vim option: 'foldlevel', short: 'fdl')"
+          "description": "close folds with a level higher than this. (Vim option: 'foldlevel', short: 'fdl')",
+          "scope": "language-overridable"
         },
         "vim-options.foldlevelstart": {
           "type": [
@@ -1193,7 +1288,8 @@
             "null"
           ],
           "default": null,
-          "description": "'foldlevel' when starting to edit a file. (Vim option: 'foldlevelstart', short: 'fdls')"
+          "description": "'foldlevel' when starting to edit a file. (Vim option: 'foldlevelstart', short: 'fdls')",
+          "scope": "language-overridable"
         },
         "vim-options.foldmarker": {
           "type": [
@@ -1205,7 +1301,8 @@
             "null"
           ],
           "default": null,
-          "description": "markers used when 'foldmethod' is \"marker\". (Vim option: 'foldmarker', short: 'fmr')"
+          "description": "markers used when 'foldmethod' is \"marker\". (Vim option: 'foldmarker', short: 'fmr')",
+          "scope": "language-overridable"
         },
         "vim-options.foldmethod": {
           "type": [
@@ -1217,7 +1314,8 @@
             "null"
           ],
           "default": null,
-          "description": "folding type. (Vim option: 'foldmethod', short: 'fdm')"
+          "description": "folding type. (Vim option: 'foldmethod', short: 'fdm')",
+          "scope": "language-overridable"
         },
         "vim-options.foldminlines": {
           "type": [
@@ -1229,7 +1327,8 @@
             "null"
           ],
           "default": null,
-          "description": "minimum number of lines for a fold to be closed. (Vim option: 'foldminlines', short: 'fml')"
+          "description": "minimum number of lines for a fold to be closed. (Vim option: 'foldminlines', short: 'fml')",
+          "scope": "language-overridable"
         },
         "vim-options.foldnestmax": {
           "type": [
@@ -1241,7 +1340,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum fold depth. (Vim option: 'foldnestmax', short: 'fdn')"
+          "description": "maximum fold depth. (Vim option: 'foldnestmax', short: 'fdn')",
+          "scope": "language-overridable"
         },
         "vim-options.foldopen": {
           "type": [
@@ -1253,7 +1353,8 @@
             "null"
           ],
           "default": null,
-          "description": "for which commands a fold will be opened. (Vim option: 'foldopen', short: 'fdo')"
+          "description": "for which commands a fold will be opened. (Vim option: 'foldopen', short: 'fdo')",
+          "scope": "language-overridable"
         },
         "vim-options.foldtext": {
           "type": [
@@ -1265,7 +1366,8 @@
             "null"
           ],
           "default": null,
-          "description": "expression used to display for a closed fold. (Vim option: 'foldtext', short: 'fdt')"
+          "description": "expression used to display for a closed fold. (Vim option: 'foldtext', short: 'fdt')",
+          "scope": "language-overridable"
         },
         "vim-options.formatexpr": {
           "type": [
@@ -1277,7 +1379,8 @@
             "null"
           ],
           "default": null,
-          "description": "expression used with \"gq\" command. (Vim option: 'formatexpr', short: 'fex')"
+          "description": "expression used with \"gq\" command. (Vim option: 'formatexpr', short: 'fex')",
+          "scope": "language-overridable"
         },
         "vim-options.formatlistpat": {
           "type": [
@@ -1289,7 +1392,8 @@
             "null"
           ],
           "default": null,
-          "description": "pattern used to recognize a list header. (Vim option: 'formatlistpat', short: 'flp')"
+          "description": "pattern used to recognize a list header. (Vim option: 'formatlistpat', short: 'flp')",
+          "scope": "language-overridable"
         },
         "vim-options.formatoptions": {
           "type": [
@@ -1301,7 +1405,8 @@
             "null"
           ],
           "default": null,
-          "description": "how automatic formatting is to be done. (Vim option: 'formatoptions', short: 'fo')"
+          "description": "how automatic formatting is to be done. (Vim option: 'formatoptions', short: 'fo')",
+          "scope": "language-overridable"
         },
         "vim-options.formatprg": {
           "type": [
@@ -1313,7 +1418,8 @@
             "null"
           ],
           "default": null,
-          "description": "name of external program used with \"gq\" command. (Vim option: 'formatprg', short: 'fp')"
+          "description": "name of external program used with \"gq\" command. (Vim option: 'formatprg', short: 'fp')",
+          "scope": "language-overridable"
         },
         "vim-options.fsync": {
           "type": [
@@ -1325,7 +1431,8 @@
             "null"
           ],
           "default": null,
-          "description": "whether to invoke fsync() after file write. (Vim option: 'fsync', short: 'fs')"
+          "description": "whether to invoke fsync() after file write. (Vim option: 'fsync', short: 'fs')",
+          "scope": "language-overridable"
         },
         "vim-options.gdefault": {
           "type": [
@@ -1337,7 +1444,8 @@
             "null"
           ],
           "default": null,
-          "description": "the \":substitute\" flag 'g' is default on. (Vim option: 'gdefault', short: 'gd')"
+          "description": "the \":substitute\" flag 'g' is default on. (Vim option: 'gdefault', short: 'gd')",
+          "scope": "language-overridable"
         },
         "vim-options.grepformat": {
           "type": [
@@ -1349,7 +1457,8 @@
             "null"
           ],
           "default": null,
-          "description": "format of 'grepprg' output. (Vim option: 'grepformat', short: 'gfm')"
+          "description": "format of 'grepprg' output. (Vim option: 'grepformat', short: 'gfm')",
+          "scope": "language-overridable"
         },
         "vim-options.grepprg": {
           "type": [
@@ -1361,7 +1470,8 @@
             "null"
           ],
           "default": null,
-          "description": "program to use for \":grep\". (Vim option: 'grepprg', short: 'gp')"
+          "description": "program to use for \":grep\". (Vim option: 'grepprg', short: 'gp')",
+          "scope": "language-overridable"
         },
         "vim-options.guicursor": {
           "type": [
@@ -1373,7 +1483,8 @@
             "null"
           ],
           "default": null,
-          "description": "GUI: settings for cursor shape and blinking. (Vim option: 'guicursor', short: 'gcr')"
+          "description": "GUI: settings for cursor shape and blinking. (Vim option: 'guicursor', short: 'gcr')",
+          "scope": "language-overridable"
         },
         "vim-options.guifont": {
           "type": [
@@ -1385,7 +1496,8 @@
             "null"
           ],
           "default": null,
-          "description": "GUI: Name(s) of font(s) to be used. (Vim option: 'guifont', short: 'gfn')"
+          "description": "GUI: Name(s) of font(s) to be used. (Vim option: 'guifont', short: 'gfn')",
+          "scope": "language-overridable"
         },
         "vim-options.guifontwide": {
           "type": [
@@ -1397,7 +1509,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of font names for double-wide characters. (Vim option: 'guifontwide', short: 'gfw')"
+          "description": "list of font names for double-wide characters. (Vim option: 'guifontwide', short: 'gfw')",
+          "scope": "language-overridable"
         },
         "vim-options.guioptions": {
           "type": [
@@ -1409,7 +1522,8 @@
             "null"
           ],
           "default": null,
-          "description": "GUI: Which components and options are used. (Vim option: 'guioptions', short: 'go')"
+          "description": "GUI: Which components and options are used. (Vim option: 'guioptions', short: 'go')",
+          "scope": "language-overridable"
         },
         "vim-options.guitablabel": {
           "type": [
@@ -1421,7 +1535,8 @@
             "null"
           ],
           "default": null,
-          "description": "GUI: custom label for a tab page. (Vim option: 'guitablabel', short: 'gtl')"
+          "description": "GUI: custom label for a tab page. (Vim option: 'guitablabel', short: 'gtl')",
+          "scope": "language-overridable"
         },
         "vim-options.guitabtooltip": {
           "type": [
@@ -1433,7 +1548,8 @@
             "null"
           ],
           "default": null,
-          "description": "GUI: custom tooltip for a tab page. (Vim option: 'guitabtooltip', short: 'gtt')"
+          "description": "GUI: custom tooltip for a tab page. (Vim option: 'guitabtooltip', short: 'gtt')",
+          "scope": "language-overridable"
         },
         "vim-options.helpfile": {
           "type": [
@@ -1445,7 +1561,8 @@
             "null"
           ],
           "default": null,
-          "description": "full path name of the main help file. (Vim option: 'helpfile', short: 'hf')"
+          "description": "full path name of the main help file. (Vim option: 'helpfile', short: 'hf')",
+          "scope": "language-overridable"
         },
         "vim-options.helpheight": {
           "type": [
@@ -1457,7 +1574,8 @@
             "null"
           ],
           "default": null,
-          "description": "minimum height of a new help window. (Vim option: 'helpheight', short: 'hh')"
+          "description": "minimum height of a new help window. (Vim option: 'helpheight', short: 'hh')",
+          "scope": "language-overridable"
         },
         "vim-options.helplang": {
           "type": [
@@ -1469,7 +1587,8 @@
             "null"
           ],
           "default": null,
-          "description": "preferred help languages. (Vim option: 'helplang', short: 'hlg')"
+          "description": "preferred help languages. (Vim option: 'helplang', short: 'hlg')",
+          "scope": "language-overridable"
         },
         "vim-options.hidden": {
           "type": [
@@ -1481,7 +1600,8 @@
             "null"
           ],
           "default": null,
-          "description": "don't unload buffer when it is |abandon|ed. (Vim option: 'hidden', short: 'hid')"
+          "description": "don't unload buffer when it is |abandon|ed. (Vim option: 'hidden', short: 'hid')",
+          "scope": "language-overridable"
         },
         "vim-options.history": {
           "type": [
@@ -1493,7 +1613,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of command-lines that are remembered. (Vim option: 'history', short: 'hi')"
+          "description": "number of command-lines that are remembered. (Vim option: 'history', short: 'hi')",
+          "scope": "language-overridable"
         },
         "vim-options.hlsearch": {
           "type": [
@@ -1505,7 +1626,8 @@
             "null"
           ],
           "default": null,
-          "description": "highlight matches with last search pattern. (Vim option: 'hlsearch', short: 'hls')"
+          "description": "highlight matches with last search pattern. (Vim option: 'hlsearch', short: 'hls')",
+          "scope": "language-overridable"
         },
         "vim-options.icon": {
           "type": [
@@ -1517,7 +1639,8 @@
             "null"
           ],
           "default": null,
-          "description": "let Vim set the text of the window icon. (Vim option: 'icon', short: 'icon')"
+          "description": "let Vim set the text of the window icon. (Vim option: 'icon', short: 'icon')",
+          "scope": "language-overridable"
         },
         "vim-options.iconstring": {
           "type": [
@@ -1529,7 +1652,8 @@
             "null"
           ],
           "default": null,
-          "description": "string to use for the Vim icon text. (Vim option: 'iconstring', short: 'iconstring')"
+          "description": "string to use for the Vim icon text. (Vim option: 'iconstring', short: 'iconstring')",
+          "scope": "language-overridable"
         },
         "vim-options.ignorecase": {
           "type": [
@@ -1541,7 +1665,8 @@
             "null"
           ],
           "default": null,
-          "description": "ignore case in search patterns. (Vim option: 'ignorecase', short: 'ic')"
+          "description": "ignore case in search patterns. (Vim option: 'ignorecase', short: 'ic')",
+          "scope": "language-overridable"
         },
         "vim-options.imcmdline": {
           "type": [
@@ -1553,7 +1678,8 @@
             "null"
           ],
           "default": null,
-          "description": "use IM when starting to edit a command line. (Vim option: 'imcmdline', short: 'imc')"
+          "description": "use IM when starting to edit a command line. (Vim option: 'imcmdline', short: 'imc')",
+          "scope": "language-overridable"
         },
         "vim-options.imdisable": {
           "type": [
@@ -1565,7 +1691,8 @@
             "null"
           ],
           "default": null,
-          "description": "do not use the IM in any mode. (Vim option: 'imdisable', short: 'imd')"
+          "description": "do not use the IM in any mode. (Vim option: 'imdisable', short: 'imd')",
+          "scope": "language-overridable"
         },
         "vim-options.iminsert": {
           "type": [
@@ -1577,7 +1704,8 @@
             "null"
           ],
           "default": null,
-          "description": "use :lmap or IM in Insert mode. (Vim option: 'iminsert', short: 'imi')"
+          "description": "use :lmap or IM in Insert mode. (Vim option: 'iminsert', short: 'imi')",
+          "scope": "language-overridable"
         },
         "vim-options.imsearch": {
           "type": [
@@ -1589,7 +1717,8 @@
             "null"
           ],
           "default": null,
-          "description": "use :lmap or IM when typing a search pattern. (Vim option: 'imsearch', short: 'ims')"
+          "description": "use :lmap or IM when typing a search pattern. (Vim option: 'imsearch', short: 'ims')",
+          "scope": "language-overridable"
         },
         "vim-options.include": {
           "type": [
@@ -1601,7 +1730,8 @@
             "null"
           ],
           "default": null,
-          "description": "pattern to be used to find an include file. (Vim option: 'include', short: 'inc')"
+          "description": "pattern to be used to find an include file. (Vim option: 'include', short: 'inc')",
+          "scope": "language-overridable"
         },
         "vim-options.includeexpr": {
           "type": [
@@ -1613,7 +1743,8 @@
             "null"
           ],
           "default": null,
-          "description": "expression used to process an include line. (Vim option: 'includeexpr', short: 'inex')"
+          "description": "expression used to process an include line. (Vim option: 'includeexpr', short: 'inex')",
+          "scope": "language-overridable"
         },
         "vim-options.incsearch": {
           "type": [
@@ -1625,7 +1756,8 @@
             "null"
           ],
           "default": null,
-          "description": "highlight match while typing search pattern. (Vim option: 'incsearch', short: 'is')"
+          "description": "highlight match while typing search pattern. (Vim option: 'incsearch', short: 'is')",
+          "scope": "language-overridable"
         },
         "vim-options.indentexpr": {
           "type": [
@@ -1637,7 +1769,8 @@
             "null"
           ],
           "default": null,
-          "description": "expression used to obtain the indent of a line. (Vim option: 'indentexpr', short: 'inde')"
+          "description": "expression used to obtain the indent of a line. (Vim option: 'indentexpr', short: 'inde')",
+          "scope": "language-overridable"
         },
         "vim-options.indentkeys": {
           "type": [
@@ -1649,7 +1782,8 @@
             "null"
           ],
           "default": null,
-          "description": "keys that trigger indenting with 'indentexpr'. (Vim option: 'indentkeys', short: 'indk')"
+          "description": "keys that trigger indenting with 'indentexpr'. (Vim option: 'indentkeys', short: 'indk')",
+          "scope": "language-overridable"
         },
         "vim-options.infercase": {
           "type": [
@@ -1661,7 +1795,8 @@
             "null"
           ],
           "default": null,
-          "description": "adjust case of match for keyword completion. (Vim option: 'infercase', short: 'inf')"
+          "description": "adjust case of match for keyword completion. (Vim option: 'infercase', short: 'inf')",
+          "scope": "language-overridable"
         },
         "vim-options.isfname": {
           "type": [
@@ -1673,7 +1808,8 @@
             "null"
           ],
           "default": null,
-          "description": "characters included in file names and pathnames. (Vim option: 'isfname', short: 'isf')"
+          "description": "characters included in file names and pathnames. (Vim option: 'isfname', short: 'isf')",
+          "scope": "language-overridable"
         },
         "vim-options.isident": {
           "type": [
@@ -1685,7 +1821,8 @@
             "null"
           ],
           "default": null,
-          "description": "characters included in identifiers. (Vim option: 'isident', short: 'isi')"
+          "description": "characters included in identifiers. (Vim option: 'isident', short: 'isi')",
+          "scope": "language-overridable"
         },
         "vim-options.iskeyword": {
           "type": [
@@ -1697,7 +1834,8 @@
             "null"
           ],
           "default": null,
-          "description": "characters included in keywords. (Vim option: 'iskeyword', short: 'isk')"
+          "description": "characters included in keywords. (Vim option: 'iskeyword', short: 'isk')",
+          "scope": "language-overridable"
         },
         "vim-options.isprint": {
           "type": [
@@ -1709,7 +1847,8 @@
             "null"
           ],
           "default": null,
-          "description": "printable characters. (Vim option: 'isprint', short: 'isp')"
+          "description": "printable characters. (Vim option: 'isprint', short: 'isp')",
+          "scope": "language-overridable"
         },
         "vim-options.joinspaces": {
           "type": [
@@ -1721,7 +1860,8 @@
             "null"
           ],
           "default": null,
-          "description": "two spaces after a period with a join command. (Vim option: 'joinspaces', short: 'js')"
+          "description": "two spaces after a period with a join command. (Vim option: 'joinspaces', short: 'js')",
+          "scope": "language-overridable"
         },
         "vim-options.jumpoptions": {
           "type": [
@@ -1733,7 +1873,8 @@
             "null"
           ],
           "default": null,
-          "description": "specifies how jumping is done. (Vim option: 'jumpoptions', short: 'jop')"
+          "description": "specifies how jumping is done. (Vim option: 'jumpoptions', short: 'jop')",
+          "scope": "language-overridable"
         },
         "vim-options.keymap": {
           "type": [
@@ -1745,7 +1886,8 @@
             "null"
           ],
           "default": null,
-          "description": "name of a keyboard mapping. (Vim option: 'keymap', short: 'kmp')"
+          "description": "name of a keyboard mapping. (Vim option: 'keymap', short: 'kmp')",
+          "scope": "language-overridable"
         },
         "vim-options.keymodel": {
           "type": [
@@ -1757,7 +1899,8 @@
             "null"
           ],
           "default": null,
-          "description": "enable starting/stopping selection with keys. (Vim option: 'keymodel', short: 'km')"
+          "description": "enable starting/stopping selection with keys. (Vim option: 'keymodel', short: 'km')",
+          "scope": "language-overridable"
         },
         "vim-options.keywordprg": {
           "type": [
@@ -1769,7 +1912,8 @@
             "null"
           ],
           "default": null,
-          "description": "program to use for the \"K\" command. (Vim option: 'keywordprg', short: 'kp')"
+          "description": "program to use for the \"K\" command. (Vim option: 'keywordprg', short: 'kp')",
+          "scope": "language-overridable"
         },
         "vim-options.langmap": {
           "type": [
@@ -1781,7 +1925,8 @@
             "null"
           ],
           "default": null,
-          "description": "alphabetic characters for other language mode. (Vim option: 'langmap', short: 'lmap')"
+          "description": "alphabetic characters for other language mode. (Vim option: 'langmap', short: 'lmap')",
+          "scope": "language-overridable"
         },
         "vim-options.langmenu": {
           "type": [
@@ -1793,7 +1938,8 @@
             "null"
           ],
           "default": null,
-          "description": "language to be used for the menus. (Vim option: 'langmenu', short: 'lm')"
+          "description": "language to be used for the menus. (Vim option: 'langmenu', short: 'lm')",
+          "scope": "language-overridable"
         },
         "vim-options.langremap": {
           "type": [
@@ -1805,7 +1951,8 @@
             "null"
           ],
           "default": null,
-          "description": "do apply 'langmap' to mapped characters. (Vim option: 'langremap', short: 'lrm')"
+          "description": "do apply 'langmap' to mapped characters. (Vim option: 'langremap', short: 'lrm')",
+          "scope": "language-overridable"
         },
         "vim-options.laststatus": {
           "type": [
@@ -1817,7 +1964,8 @@
             "null"
           ],
           "default": null,
-          "description": "tells when last window has status lines. (Vim option: 'laststatus', short: 'ls')"
+          "description": "tells when last window has status lines. (Vim option: 'laststatus', short: 'ls')",
+          "scope": "language-overridable"
         },
         "vim-options.lazyredraw": {
           "type": [
@@ -1829,7 +1977,8 @@
             "null"
           ],
           "default": null,
-          "description": "don't redraw while executing macros. (Vim option: 'lazyredraw', short: 'lz')"
+          "description": "don't redraw while executing macros. (Vim option: 'lazyredraw', short: 'lz')",
+          "scope": "language-overridable"
         },
         "vim-options.lhistory": {
           "type": [
@@ -1841,7 +1990,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum number of location lists in history. (Vim option: 'lhistory', short: 'lhi')"
+          "description": "maximum number of location lists in history. (Vim option: 'lhistory', short: 'lhi')",
+          "scope": "language-overridable"
         },
         "vim-options.linebreak": {
           "type": [
@@ -1853,7 +2003,8 @@
             "null"
           ],
           "default": null,
-          "description": "wrap long lines at a blank. (Vim option: 'linebreak', short: 'lbr')"
+          "description": "wrap long lines at a blank. (Vim option: 'linebreak', short: 'lbr')",
+          "scope": "language-overridable"
         },
         "vim-options.lines": {
           "type": [
@@ -1865,7 +2016,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of lines in the display. (Vim option: 'lines', short: 'lines')"
+          "description": "number of lines in the display. (Vim option: 'lines', short: 'lines')",
+          "scope": "language-overridable"
         },
         "vim-options.linespace": {
           "type": [
@@ -1877,7 +2029,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of pixel lines to use between characters. (Vim option: 'linespace', short: 'lsp')"
+          "description": "number of pixel lines to use between characters. (Vim option: 'linespace', short: 'lsp')",
+          "scope": "language-overridable"
         },
         "vim-options.lisp": {
           "type": [
@@ -1889,7 +2042,8 @@
             "null"
           ],
           "default": null,
-          "description": "automatic indenting for Lisp. (Vim option: 'lisp', short: 'lisp')"
+          "description": "automatic indenting for Lisp. (Vim option: 'lisp', short: 'lisp')",
+          "scope": "language-overridable"
         },
         "vim-options.lispoptions": {
           "type": [
@@ -1901,7 +2055,8 @@
             "null"
           ],
           "default": null,
-          "description": "changes how Lisp indenting is done. (Vim option: 'lispoptions', short: 'lop')"
+          "description": "changes how Lisp indenting is done. (Vim option: 'lispoptions', short: 'lop')",
+          "scope": "language-overridable"
         },
         "vim-options.lispwords": {
           "type": [
@@ -1913,7 +2068,8 @@
             "null"
           ],
           "default": null,
-          "description": "words that change how lisp indenting works. (Vim option: 'lispwords', short: 'lw')"
+          "description": "words that change how lisp indenting works. (Vim option: 'lispwords', short: 'lw')",
+          "scope": "language-overridable"
         },
         "vim-options.list": {
           "type": [
@@ -1925,7 +2081,8 @@
             "null"
           ],
           "default": null,
-          "description": "show <Tab> and <EOL>. (Vim option: 'list', short: 'list')"
+          "description": "show <Tab> and <EOL>. (Vim option: 'list', short: 'list')",
+          "scope": "language-overridable"
         },
         "vim-options.listchars": {
           "type": [
@@ -1937,7 +2094,8 @@
             "null"
           ],
           "default": null,
-          "description": "characters for displaying in list mode. (Vim option: 'listchars', short: 'lcs')"
+          "description": "characters for displaying in list mode. (Vim option: 'listchars', short: 'lcs')",
+          "scope": "language-overridable"
         },
         "vim-options.loadplugins": {
           "type": [
@@ -1949,7 +2107,8 @@
             "null"
           ],
           "default": null,
-          "description": "load plugin scripts when starting up. (Vim option: 'loadplugins', short: 'lpl')"
+          "description": "load plugin scripts when starting up. (Vim option: 'loadplugins', short: 'lpl')",
+          "scope": "language-overridable"
         },
         "vim-options.magic": {
           "type": [
@@ -1961,7 +2120,8 @@
             "null"
           ],
           "default": null,
-          "description": "changes special characters in search patterns. (Vim option: 'magic', short: 'magic')"
+          "description": "changes special characters in search patterns. (Vim option: 'magic', short: 'magic')",
+          "scope": "language-overridable"
         },
         "vim-options.makeef": {
           "type": [
@@ -1973,7 +2133,8 @@
             "null"
           ],
           "default": null,
-          "description": "name of the errorfile for \":make\". (Vim option: 'makeef', short: 'mef')"
+          "description": "name of the errorfile for \":make\". (Vim option: 'makeef', short: 'mef')",
+          "scope": "language-overridable"
         },
         "vim-options.makeencoding": {
           "type": [
@@ -1985,7 +2146,8 @@
             "null"
           ],
           "default": null,
-          "description": "encoding of external make/grep commands. (Vim option: 'makeencoding', short: 'menc')"
+          "description": "encoding of external make/grep commands. (Vim option: 'makeencoding', short: 'menc')",
+          "scope": "language-overridable"
         },
         "vim-options.makeprg": {
           "type": [
@@ -1997,7 +2159,8 @@
             "null"
           ],
           "default": null,
-          "description": "program to use for the \":make\" command. (Vim option: 'makeprg', short: 'mp')"
+          "description": "program to use for the \":make\" command. (Vim option: 'makeprg', short: 'mp')",
+          "scope": "language-overridable"
         },
         "vim-options.matchpairs": {
           "type": [
@@ -2009,7 +2172,8 @@
             "null"
           ],
           "default": null,
-          "description": "pairs of characters that \"%\" can match. (Vim option: 'matchpairs', short: 'mps')"
+          "description": "pairs of characters that \"%\" can match. (Vim option: 'matchpairs', short: 'mps')",
+          "scope": "language-overridable"
         },
         "vim-options.matchtime": {
           "type": [
@@ -2021,7 +2185,8 @@
             "null"
           ],
           "default": null,
-          "description": "tenths of a second to show matching paren. (Vim option: 'matchtime', short: 'mat')"
+          "description": "tenths of a second to show matching paren. (Vim option: 'matchtime', short: 'mat')",
+          "scope": "language-overridable"
         },
         "vim-options.maxcombine": {
           "type": [
@@ -2033,7 +2198,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum nr of combining characters displayed. (Vim option: 'maxcombine', short: 'mco')"
+          "description": "maximum nr of combining characters displayed. (Vim option: 'maxcombine', short: 'mco')",
+          "scope": "language-overridable"
         },
         "vim-options.maxfuncdepth": {
           "type": [
@@ -2045,7 +2211,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum recursive depth for user functions. (Vim option: 'maxfuncdepth', short: 'mfd')"
+          "description": "maximum recursive depth for user functions. (Vim option: 'maxfuncdepth', short: 'mfd')",
+          "scope": "language-overridable"
         },
         "vim-options.maxmapdepth": {
           "type": [
@@ -2057,7 +2224,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum recursive depth for mapping. (Vim option: 'maxmapdepth', short: 'mmd')"
+          "description": "maximum recursive depth for mapping. (Vim option: 'maxmapdepth', short: 'mmd')",
+          "scope": "language-overridable"
         },
         "vim-options.maxmempattern": {
           "type": [
@@ -2069,7 +2237,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum memory (in Kbyte) used for pattern search. (Vim option: 'maxmempattern', short: 'mmp')"
+          "description": "maximum memory (in Kbyte) used for pattern search. (Vim option: 'maxmempattern', short: 'mmp')",
+          "scope": "language-overridable"
         },
         "vim-options.menuitems": {
           "type": [
@@ -2081,7 +2250,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum number of items in a menu. (Vim option: 'menuitems', short: 'mis')"
+          "description": "maximum number of items in a menu. (Vim option: 'menuitems', short: 'mis')",
+          "scope": "language-overridable"
         },
         "vim-options.mkspellmem": {
           "type": [
@@ -2093,7 +2263,8 @@
             "null"
           ],
           "default": null,
-          "description": "memory used before |:mkspell| compresses the tree. (Vim option: 'mkspellmem', short: 'msm')"
+          "description": "memory used before |:mkspell| compresses the tree. (Vim option: 'mkspellmem', short: 'msm')",
+          "scope": "language-overridable"
         },
         "vim-options.modeline": {
           "type": [
@@ -2105,7 +2276,8 @@
             "null"
           ],
           "default": null,
-          "description": "recognize modelines at start or end of file. (Vim option: 'modeline', short: 'ml')"
+          "description": "recognize modelines at start or end of file. (Vim option: 'modeline', short: 'ml')",
+          "scope": "language-overridable"
         },
         "vim-options.modelineexpr": {
           "type": [
@@ -2117,7 +2289,8 @@
             "null"
           ],
           "default": null,
-          "description": "allow setting expression options from a modeline. (Vim option: 'modelineexpr', short: 'mle')"
+          "description": "allow setting expression options from a modeline. (Vim option: 'modelineexpr', short: 'mle')",
+          "scope": "language-overridable"
         },
         "vim-options.modelines": {
           "type": [
@@ -2129,7 +2302,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of lines checked for modelines. (Vim option: 'modelines', short: 'mls')"
+          "description": "number of lines checked for modelines. (Vim option: 'modelines', short: 'mls')",
+          "scope": "language-overridable"
         },
         "vim-options.modifiable": {
           "type": [
@@ -2141,7 +2315,8 @@
             "null"
           ],
           "default": null,
-          "description": "changes to the text are not possible. (Vim option: 'modifiable', short: 'ma')"
+          "description": "changes to the text are not possible. (Vim option: 'modifiable', short: 'ma')",
+          "scope": "language-overridable"
         },
         "vim-options.modified": {
           "type": [
@@ -2153,7 +2328,8 @@
             "null"
           ],
           "default": null,
-          "description": "buffer has been modified. (Vim option: 'modified', short: 'mod')"
+          "description": "buffer has been modified. (Vim option: 'modified', short: 'mod')",
+          "scope": "language-overridable"
         },
         "vim-options.more": {
           "type": [
@@ -2165,7 +2341,8 @@
             "null"
           ],
           "default": null,
-          "description": "pause listings when the whole screen is filled. (Vim option: 'more', short: 'more')"
+          "description": "pause listings when the whole screen is filled. (Vim option: 'more', short: 'more')",
+          "scope": "language-overridable"
         },
         "vim-options.mouse": {
           "type": [
@@ -2177,7 +2354,8 @@
             "null"
           ],
           "default": null,
-          "description": "enable the use of mouse clicks. (Vim option: 'mouse', short: 'mouse')"
+          "description": "enable the use of mouse clicks. (Vim option: 'mouse', short: 'mouse')",
+          "scope": "language-overridable"
         },
         "vim-options.mousefocus": {
           "type": [
@@ -2189,7 +2367,8 @@
             "null"
           ],
           "default": null,
-          "description": "keyboard focus follows the mouse. (Vim option: 'mousefocus', short: 'mousef')"
+          "description": "keyboard focus follows the mouse. (Vim option: 'mousefocus', short: 'mousef')",
+          "scope": "language-overridable"
         },
         "vim-options.mousehide": {
           "type": [
@@ -2201,7 +2380,8 @@
             "null"
           ],
           "default": null,
-          "description": "hide mouse pointer while typing. (Vim option: 'mousehide', short: 'mh')"
+          "description": "hide mouse pointer while typing. (Vim option: 'mousehide', short: 'mh')",
+          "scope": "language-overridable"
         },
         "vim-options.mousemodel": {
           "type": [
@@ -2213,7 +2393,8 @@
             "null"
           ],
           "default": null,
-          "description": "changes meaning of mouse buttons. (Vim option: 'mousemodel', short: 'mousem')"
+          "description": "changes meaning of mouse buttons. (Vim option: 'mousemodel', short: 'mousem')",
+          "scope": "language-overridable"
         },
         "vim-options.mousemoveevent": {
           "type": [
@@ -2225,7 +2406,8 @@
             "null"
           ],
           "default": null,
-          "description": "report mouse moves with <MouseMove>. (Vim option: 'mousemoveevent', short: 'mousemev')"
+          "description": "report mouse moves with <MouseMove>. (Vim option: 'mousemoveevent', short: 'mousemev')",
+          "scope": "language-overridable"
         },
         "vim-options.mousescroll": {
           "type": [
@@ -2237,7 +2419,8 @@
             "null"
           ],
           "default": null,
-          "description": "amount to scroll by when scrolling with a mouse. (Vim option: 'mousescroll', short: 'mousescroll')"
+          "description": "amount to scroll by when scrolling with a mouse. (Vim option: 'mousescroll', short: 'mousescroll')",
+          "scope": "language-overridable"
         },
         "vim-options.mouseshape": {
           "type": [
@@ -2249,7 +2432,8 @@
             "null"
           ],
           "default": null,
-          "description": "shape of the mouse pointer in different modes. (Vim option: 'mouseshape', short: 'mouses')"
+          "description": "shape of the mouse pointer in different modes. (Vim option: 'mouseshape', short: 'mouses')",
+          "scope": "language-overridable"
         },
         "vim-options.mousetime": {
           "type": [
@@ -2261,7 +2445,8 @@
             "null"
           ],
           "default": null,
-          "description": "max time between mouse double-click. (Vim option: 'mousetime', short: 'mouset')"
+          "description": "max time between mouse double-click. (Vim option: 'mousetime', short: 'mouset')",
+          "scope": "language-overridable"
         },
         "vim-options.nrformats": {
           "type": [
@@ -2273,7 +2458,8 @@
             "null"
           ],
           "default": null,
-          "description": "number formats recognized for CTRL-A command. (Vim option: 'nrformats', short: 'nf')"
+          "description": "number formats recognized for CTRL-A command. (Vim option: 'nrformats', short: 'nf')",
+          "scope": "language-overridable"
         },
         "vim-options.number": {
           "type": [
@@ -2285,7 +2471,8 @@
             "null"
           ],
           "default": null,
-          "description": "print the line number in front of each line. (Vim option: 'number', short: 'nu')"
+          "description": "print the line number in front of each line. (Vim option: 'number', short: 'nu')",
+          "scope": "language-overridable"
         },
         "vim-options.numberwidth": {
           "type": [
@@ -2297,7 +2484,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of columns used for the line number. (Vim option: 'numberwidth', short: 'nuw')"
+          "description": "number of columns used for the line number. (Vim option: 'numberwidth', short: 'nuw')",
+          "scope": "language-overridable"
         },
         "vim-options.omnifunc": {
           "type": [
@@ -2309,7 +2497,8 @@
             "null"
           ],
           "default": null,
-          "description": "function for filetype-specific completion. (Vim option: 'omnifunc', short: 'ofu')"
+          "description": "function for filetype-specific completion. (Vim option: 'omnifunc', short: 'ofu')",
+          "scope": "language-overridable"
         },
         "vim-options.opendevice": {
           "type": [
@@ -2321,7 +2510,8 @@
             "null"
           ],
           "default": null,
-          "description": "allow reading/writing devices on MS-Windows. (Vim option: 'opendevice', short: 'odev')"
+          "description": "allow reading/writing devices on MS-Windows. (Vim option: 'opendevice', short: 'odev')",
+          "scope": "language-overridable"
         },
         "vim-options.operatorfunc": {
           "type": [
@@ -2333,7 +2523,8 @@
             "null"
           ],
           "default": null,
-          "description": "function to be called for |g@| operator. (Vim option: 'operatorfunc', short: 'opfunc')"
+          "description": "function to be called for |g@| operator. (Vim option: 'operatorfunc', short: 'opfunc')",
+          "scope": "language-overridable"
         },
         "vim-options.packpath": {
           "type": [
@@ -2345,7 +2536,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of directories used for packages. (Vim option: 'packpath', short: 'pp')"
+          "description": "list of directories used for packages. (Vim option: 'packpath', short: 'pp')",
+          "scope": "language-overridable"
         },
         "vim-options.paragraphs": {
           "type": [
@@ -2357,7 +2549,8 @@
             "null"
           ],
           "default": null,
-          "description": "nroff macros that separate paragraphs. (Vim option: 'paragraphs', short: 'para')"
+          "description": "nroff macros that separate paragraphs. (Vim option: 'paragraphs', short: 'para')",
+          "scope": "language-overridable"
         },
         "vim-options.patchexpr": {
           "type": [
@@ -2369,7 +2562,8 @@
             "null"
           ],
           "default": null,
-          "description": "expression used to patch a file. (Vim option: 'patchexpr', short: 'pex')"
+          "description": "expression used to patch a file. (Vim option: 'patchexpr', short: 'pex')",
+          "scope": "language-overridable"
         },
         "vim-options.patchmode": {
           "type": [
@@ -2381,7 +2575,8 @@
             "null"
           ],
           "default": null,
-          "description": "keep the oldest version of a file. (Vim option: 'patchmode', short: 'pm')"
+          "description": "keep the oldest version of a file. (Vim option: 'patchmode', short: 'pm')",
+          "scope": "language-overridable"
         },
         "vim-options.path": {
           "type": [
@@ -2393,7 +2588,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of directories searched with \"gf\" et.al.. (Vim option: 'path', short: 'pa')"
+          "description": "list of directories searched with \"gf\" et.al.. (Vim option: 'path', short: 'pa')",
+          "scope": "language-overridable"
         },
         "vim-options.preserveindent": {
           "type": [
@@ -2405,7 +2601,8 @@
             "null"
           ],
           "default": null,
-          "description": "preserve the indent structure when reindenting. (Vim option: 'preserveindent', short: 'pi')"
+          "description": "preserve the indent structure when reindenting. (Vim option: 'preserveindent', short: 'pi')",
+          "scope": "language-overridable"
         },
         "vim-options.previewheight": {
           "type": [
@@ -2417,7 +2614,8 @@
             "null"
           ],
           "default": null,
-          "description": "height of the preview window. (Vim option: 'previewheight', short: 'pvh')"
+          "description": "height of the preview window. (Vim option: 'previewheight', short: 'pvh')",
+          "scope": "language-overridable"
         },
         "vim-options.previewwindow": {
           "type": [
@@ -2429,7 +2627,8 @@
             "null"
           ],
           "default": null,
-          "description": "identifies the preview window. (Vim option: 'previewwindow', short: 'pvw')"
+          "description": "identifies the preview window. (Vim option: 'previewwindow', short: 'pvw')",
+          "scope": "language-overridable"
         },
         "vim-options.pumheight": {
           "type": [
@@ -2441,7 +2640,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum number of items to show in the popup menu. (Vim option: 'pumheight', short: 'ph')"
+          "description": "maximum number of items to show in the popup menu. (Vim option: 'pumheight', short: 'ph')",
+          "scope": "language-overridable"
         },
         "vim-options.pumwidth": {
           "type": [
@@ -2453,7 +2653,8 @@
             "null"
           ],
           "default": null,
-          "description": "minimum width of the popup menu. (Vim option: 'pumwidth', short: 'pw')"
+          "description": "minimum width of the popup menu. (Vim option: 'pumwidth', short: 'pw')",
+          "scope": "language-overridable"
         },
         "vim-options.pyxversion": {
           "type": [
@@ -2465,7 +2666,8 @@
             "null"
           ],
           "default": null,
-          "description": "Python version used for pyx* commands. (Vim option: 'pyxversion', short: 'pyx')"
+          "description": "Python version used for pyx* commands. (Vim option: 'pyxversion', short: 'pyx')",
+          "scope": "language-overridable"
         },
         "vim-options.quoteescape": {
           "type": [
@@ -2477,7 +2679,8 @@
             "null"
           ],
           "default": null,
-          "description": "escape characters used in a string. (Vim option: 'quoteescape', short: 'qe')"
+          "description": "escape characters used in a string. (Vim option: 'quoteescape', short: 'qe')",
+          "scope": "language-overridable"
         },
         "vim-options.readonly": {
           "type": [
@@ -2489,7 +2692,8 @@
             "null"
           ],
           "default": null,
-          "description": "disallow writing the buffer. (Vim option: 'readonly', short: 'ro')"
+          "description": "disallow writing the buffer. (Vim option: 'readonly', short: 'ro')",
+          "scope": "language-overridable"
         },
         "vim-options.redrawtime": {
           "type": [
@@ -2501,7 +2705,8 @@
             "null"
           ],
           "default": null,
-          "description": "timeout for 'hlsearch' and |:match| highlighting. (Vim option: 'redrawtime', short: 'rdt')"
+          "description": "timeout for 'hlsearch' and |:match| highlighting. (Vim option: 'redrawtime', short: 'rdt')",
+          "scope": "language-overridable"
         },
         "vim-options.regexpengine": {
           "type": [
@@ -2513,7 +2718,8 @@
             "null"
           ],
           "default": null,
-          "description": "default regexp engine to use. (Vim option: 'regexpengine', short: 're')"
+          "description": "default regexp engine to use. (Vim option: 'regexpengine', short: 're')",
+          "scope": "language-overridable"
         },
         "vim-options.relativenumber": {
           "type": [
@@ -2525,7 +2731,8 @@
             "null"
           ],
           "default": null,
-          "description": "show relative line number in front of each line. (Vim option: 'relativenumber', short: 'rnu')"
+          "description": "show relative line number in front of each line. (Vim option: 'relativenumber', short: 'rnu')",
+          "scope": "language-overridable"
         },
         "vim-options.report": {
           "type": [
@@ -2537,7 +2744,8 @@
             "null"
           ],
           "default": null,
-          "description": "threshold for reporting nr. of lines changed. (Vim option: 'report', short: 'report')"
+          "description": "threshold for reporting nr. of lines changed. (Vim option: 'report', short: 'report')",
+          "scope": "language-overridable"
         },
         "vim-options.revins": {
           "type": [
@@ -2549,7 +2757,8 @@
             "null"
           ],
           "default": null,
-          "description": "inserting characters will work backwards. (Vim option: 'revins', short: 'ri')"
+          "description": "inserting characters will work backwards. (Vim option: 'revins', short: 'ri')",
+          "scope": "language-overridable"
         },
         "vim-options.rightleft": {
           "type": [
@@ -2561,7 +2770,8 @@
             "null"
           ],
           "default": null,
-          "description": "window is right-to-left oriented. (Vim option: 'rightleft', short: 'rl')"
+          "description": "window is right-to-left oriented. (Vim option: 'rightleft', short: 'rl')",
+          "scope": "language-overridable"
         },
         "vim-options.rightleftcmd": {
           "type": [
@@ -2573,7 +2783,8 @@
             "null"
           ],
           "default": null,
-          "description": "commands for which editing works right-to-left. (Vim option: 'rightleftcmd', short: 'rlc')"
+          "description": "commands for which editing works right-to-left. (Vim option: 'rightleftcmd', short: 'rlc')",
+          "scope": "language-overridable"
         },
         "vim-options.ruler": {
           "type": [
@@ -2585,7 +2796,8 @@
             "null"
           ],
           "default": null,
-          "description": "show cursor line and column in the status line. (Vim option: 'ruler', short: 'ru')"
+          "description": "show cursor line and column in the status line. (Vim option: 'ruler', short: 'ru')",
+          "scope": "language-overridable"
         },
         "vim-options.rulerformat": {
           "type": [
@@ -2597,7 +2809,8 @@
             "null"
           ],
           "default": null,
-          "description": "custom format for the ruler. (Vim option: 'rulerformat', short: 'ruf')"
+          "description": "custom format for the ruler. (Vim option: 'rulerformat', short: 'ruf')",
+          "scope": "language-overridable"
         },
         "vim-options.runtimepath": {
           "type": [
@@ -2609,7 +2822,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of directories used for runtime files. (Vim option: 'runtimepath', short: 'rtp')"
+          "description": "list of directories used for runtime files. (Vim option: 'runtimepath', short: 'rtp')",
+          "scope": "language-overridable"
         },
         "vim-options.scroll": {
           "type": [
@@ -2621,7 +2835,8 @@
             "null"
           ],
           "default": null,
-          "description": "lines to scroll with CTRL-U and CTRL-D. (Vim option: 'scroll', short: 'scr')"
+          "description": "lines to scroll with CTRL-U and CTRL-D. (Vim option: 'scroll', short: 'scr')",
+          "scope": "language-overridable"
         },
         "vim-options.scrollbind": {
           "type": [
@@ -2633,7 +2848,8 @@
             "null"
           ],
           "default": null,
-          "description": "scroll in window as other windows scroll. (Vim option: 'scrollbind', short: 'scb')"
+          "description": "scroll in window as other windows scroll. (Vim option: 'scrollbind', short: 'scb')",
+          "scope": "language-overridable"
         },
         "vim-options.scrolljump": {
           "type": [
@@ -2645,7 +2861,8 @@
             "null"
           ],
           "default": null,
-          "description": "minimum number of lines to scroll. (Vim option: 'scrolljump', short: 'sj')"
+          "description": "minimum number of lines to scroll. (Vim option: 'scrolljump', short: 'sj')",
+          "scope": "language-overridable"
         },
         "vim-options.scrolloff": {
           "type": [
@@ -2657,7 +2874,8 @@
             "null"
           ],
           "default": null,
-          "description": "minimum nr. of lines above and below cursor. (Vim option: 'scrolloff', short: 'so')"
+          "description": "minimum nr. of lines above and below cursor. (Vim option: 'scrolloff', short: 'so')",
+          "scope": "language-overridable"
         },
         "vim-options.scrollopt": {
           "type": [
@@ -2669,7 +2887,8 @@
             "null"
           ],
           "default": null,
-          "description": "how 'scrollbind' should behave. (Vim option: 'scrollopt', short: 'sbo')"
+          "description": "how 'scrollbind' should behave. (Vim option: 'scrollopt', short: 'sbo')",
+          "scope": "language-overridable"
         },
         "vim-options.sections": {
           "type": [
@@ -2681,7 +2900,8 @@
             "null"
           ],
           "default": null,
-          "description": "nroff macros that separate sections. (Vim option: 'sections', short: 'sect')"
+          "description": "nroff macros that separate sections. (Vim option: 'sections', short: 'sect')",
+          "scope": "language-overridable"
         },
         "vim-options.secure": {
           "type": [
@@ -2693,7 +2913,8 @@
             "null"
           ],
           "default": null,
-          "description": "secure mode for reading .vimrc in current dir. (Vim option: 'secure', short: 'secure')"
+          "description": "secure mode for reading .vimrc in current dir. (Vim option: 'secure', short: 'secure')",
+          "scope": "language-overridable"
         },
         "vim-options.selection": {
           "type": [
@@ -2705,7 +2926,8 @@
             "null"
           ],
           "default": null,
-          "description": "what type of selection to use. (Vim option: 'selection', short: 'sel')"
+          "description": "what type of selection to use. (Vim option: 'selection', short: 'sel')",
+          "scope": "language-overridable"
         },
         "vim-options.selectmode": {
           "type": [
@@ -2717,7 +2939,8 @@
             "null"
           ],
           "default": null,
-          "description": "when to use Select mode instead of Visual mode. (Vim option: 'selectmode', short: 'slm')"
+          "description": "when to use Select mode instead of Visual mode. (Vim option: 'selectmode', short: 'slm')",
+          "scope": "language-overridable"
         },
         "vim-options.sessionoptions": {
           "type": [
@@ -2729,7 +2952,8 @@
             "null"
           ],
           "default": null,
-          "description": "options for |:mksession|. (Vim option: 'sessionoptions', short: 'ssop')"
+          "description": "options for |:mksession|. (Vim option: 'sessionoptions', short: 'ssop')",
+          "scope": "language-overridable"
         },
         "vim-options.shada": {
           "type": [
@@ -2741,7 +2965,8 @@
             "null"
           ],
           "default": null,
-          "description": "use |shada| file upon startup and exiting. (Vim option: 'shada', short: 'sd')"
+          "description": "use |shada| file upon startup and exiting. (Vim option: 'shada', short: 'sd')",
+          "scope": "language-overridable"
         },
         "vim-options.shell": {
           "type": [
@@ -2753,7 +2978,8 @@
             "null"
           ],
           "default": null,
-          "description": "name of shell to use for external commands. (Vim option: 'shell', short: 'sh')"
+          "description": "name of shell to use for external commands. (Vim option: 'shell', short: 'sh')",
+          "scope": "language-overridable"
         },
         "vim-options.shellcmdflag": {
           "type": [
@@ -2765,7 +2991,8 @@
             "null"
           ],
           "default": null,
-          "description": "flag to shell to execute one command. (Vim option: 'shellcmdflag', short: 'shcf')"
+          "description": "flag to shell to execute one command. (Vim option: 'shellcmdflag', short: 'shcf')",
+          "scope": "language-overridable"
         },
         "vim-options.shellpipe": {
           "type": [
@@ -2777,7 +3004,8 @@
             "null"
           ],
           "default": null,
-          "description": "string to put output of \":make\" in error file. (Vim option: 'shellpipe', short: 'sp')"
+          "description": "string to put output of \":make\" in error file. (Vim option: 'shellpipe', short: 'sp')",
+          "scope": "language-overridable"
         },
         "vim-options.shellquote": {
           "type": [
@@ -2789,7 +3017,8 @@
             "null"
           ],
           "default": null,
-          "description": "quote character(s) for around shell command. (Vim option: 'shellquote', short: 'shq')"
+          "description": "quote character(s) for around shell command. (Vim option: 'shellquote', short: 'shq')",
+          "scope": "language-overridable"
         },
         "vim-options.shellredir": {
           "type": [
@@ -2801,7 +3030,8 @@
             "null"
           ],
           "default": null,
-          "description": "string to put output of filter in a temp file. (Vim option: 'shellredir', short: 'srr')"
+          "description": "string to put output of filter in a temp file. (Vim option: 'shellredir', short: 'srr')",
+          "scope": "language-overridable"
         },
         "vim-options.shellslash": {
           "type": [
@@ -2813,7 +3043,8 @@
             "null"
           ],
           "default": null,
-          "description": "use forward slash for shell file names. (Vim option: 'shellslash', short: 'ssl')"
+          "description": "use forward slash for shell file names. (Vim option: 'shellslash', short: 'ssl')",
+          "scope": "language-overridable"
         },
         "vim-options.shelltemp": {
           "type": [
@@ -2825,7 +3056,8 @@
             "null"
           ],
           "default": null,
-          "description": "whether to use a temp file for shell commands. (Vim option: 'shelltemp', short: 'stmp')"
+          "description": "whether to use a temp file for shell commands. (Vim option: 'shelltemp', short: 'stmp')",
+          "scope": "language-overridable"
         },
         "vim-options.shellxescape": {
           "type": [
@@ -2837,7 +3069,8 @@
             "null"
           ],
           "default": null,
-          "description": "characters to escape when 'shellxquote' is (. (Vim option: 'shellxescape', short: 'sxe')"
+          "description": "characters to escape when 'shellxquote' is (. (Vim option: 'shellxescape', short: 'sxe')",
+          "scope": "language-overridable"
         },
         "vim-options.shellxquote": {
           "type": [
@@ -2849,7 +3082,8 @@
             "null"
           ],
           "default": null,
-          "description": "like 'shellquote', but include redirection. (Vim option: 'shellxquote', short: 'sxq')"
+          "description": "like 'shellquote', but include redirection. (Vim option: 'shellxquote', short: 'sxq')",
+          "scope": "language-overridable"
         },
         "vim-options.shiftround": {
           "type": [
@@ -2861,7 +3095,8 @@
             "null"
           ],
           "default": null,
-          "description": "round indent to multiple of shiftwidth. (Vim option: 'shiftround', short: 'sr')"
+          "description": "round indent to multiple of shiftwidth. (Vim option: 'shiftround', short: 'sr')",
+          "scope": "language-overridable"
         },
         "vim-options.shiftwidth": {
           "type": [
@@ -2873,7 +3108,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of spaces to use for (auto)indent step. (Vim option: 'shiftwidth', short: 'sw')"
+          "description": "number of spaces to use for (auto)indent step. (Vim option: 'shiftwidth', short: 'sw')",
+          "scope": "language-overridable"
         },
         "vim-options.shortmess": {
           "type": [
@@ -2885,7 +3121,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of flags, reduce length of messages. (Vim option: 'shortmess', short: 'shm')"
+          "description": "list of flags, reduce length of messages. (Vim option: 'shortmess', short: 'shm')",
+          "scope": "language-overridable"
         },
         "vim-options.showbreak": {
           "type": [
@@ -2897,7 +3134,8 @@
             "null"
           ],
           "default": null,
-          "description": "string to use at the start of wrapped lines. (Vim option: 'showbreak', short: 'sbr')"
+          "description": "string to use at the start of wrapped lines. (Vim option: 'showbreak', short: 'sbr')",
+          "scope": "language-overridable"
         },
         "vim-options.showcmd": {
           "type": [
@@ -2909,7 +3147,8 @@
             "null"
           ],
           "default": null,
-          "description": "show (partial) command somewhere. (Vim option: 'showcmd', short: 'sc')"
+          "description": "show (partial) command somewhere. (Vim option: 'showcmd', short: 'sc')",
+          "scope": "language-overridable"
         },
         "vim-options.showcmdloc": {
           "type": [
@@ -2921,7 +3160,8 @@
             "null"
           ],
           "default": null,
-          "description": "where to show (partial) command. (Vim option: 'showcmdloc', short: 'sloc')"
+          "description": "where to show (partial) command. (Vim option: 'showcmdloc', short: 'sloc')",
+          "scope": "language-overridable"
         },
         "vim-options.showfulltag": {
           "type": [
@@ -2933,7 +3173,8 @@
             "null"
           ],
           "default": null,
-          "description": "show full tag pattern when completing tag. (Vim option: 'showfulltag', short: 'sft')"
+          "description": "show full tag pattern when completing tag. (Vim option: 'showfulltag', short: 'sft')",
+          "scope": "language-overridable"
         },
         "vim-options.showmatch": {
           "type": [
@@ -2945,7 +3186,8 @@
             "null"
           ],
           "default": null,
-          "description": "briefly jump to matching bracket if insert one. (Vim option: 'showmatch', short: 'sm')"
+          "description": "briefly jump to matching bracket if insert one. (Vim option: 'showmatch', short: 'sm')",
+          "scope": "language-overridable"
         },
         "vim-options.showmode": {
           "type": [
@@ -2957,7 +3199,8 @@
             "null"
           ],
           "default": null,
-          "description": "message on status line to show current mode. (Vim option: 'showmode', short: 'smd')"
+          "description": "message on status line to show current mode. (Vim option: 'showmode', short: 'smd')",
+          "scope": "language-overridable"
         },
         "vim-options.showtabline": {
           "type": [
@@ -2969,7 +3212,8 @@
             "null"
           ],
           "default": null,
-          "description": "tells when the tab pages line is displayed. (Vim option: 'showtabline', short: 'stal')"
+          "description": "tells when the tab pages line is displayed. (Vim option: 'showtabline', short: 'stal')",
+          "scope": "language-overridable"
         },
         "vim-options.sidescroll": {
           "type": [
@@ -2981,7 +3225,8 @@
             "null"
           ],
           "default": null,
-          "description": "minimum number of columns to scroll horizontal. (Vim option: 'sidescroll', short: 'ss')"
+          "description": "minimum number of columns to scroll horizontal. (Vim option: 'sidescroll', short: 'ss')",
+          "scope": "language-overridable"
         },
         "vim-options.sidescrolloff": {
           "type": [
@@ -2993,7 +3238,8 @@
             "null"
           ],
           "default": null,
-          "description": "min. nr. of columns to left and right of cursor. (Vim option: 'sidescrolloff', short: 'siso')"
+          "description": "min. nr. of columns to left and right of cursor. (Vim option: 'sidescrolloff', short: 'siso')",
+          "scope": "language-overridable"
         },
         "vim-options.signcolumn": {
           "type": [
@@ -3005,7 +3251,8 @@
             "null"
           ],
           "default": null,
-          "description": "when and how to display the sign column. (Vim option: 'signcolumn', short: 'scl')"
+          "description": "when and how to display the sign column. (Vim option: 'signcolumn', short: 'scl')",
+          "scope": "language-overridable"
         },
         "vim-options.smartcase": {
           "type": [
@@ -3017,7 +3264,8 @@
             "null"
           ],
           "default": null,
-          "description": "no ignore case when pattern has uppercase. (Vim option: 'smartcase', short: 'scs')"
+          "description": "no ignore case when pattern has uppercase. (Vim option: 'smartcase', short: 'scs')",
+          "scope": "language-overridable"
         },
         "vim-options.smartindent": {
           "type": [
@@ -3029,7 +3277,8 @@
             "null"
           ],
           "default": null,
-          "description": "smart autoindenting for C programs. (Vim option: 'smartindent', short: 'si')"
+          "description": "smart autoindenting for C programs. (Vim option: 'smartindent', short: 'si')",
+          "scope": "language-overridable"
         },
         "vim-options.smarttab": {
           "type": [
@@ -3041,7 +3290,8 @@
             "null"
           ],
           "default": null,
-          "description": "use 'shiftwidth' when inserting <Tab>. (Vim option: 'smarttab', short: 'sta')"
+          "description": "use 'shiftwidth' when inserting <Tab>. (Vim option: 'smarttab', short: 'sta')",
+          "scope": "language-overridable"
         },
         "vim-options.smoothscroll": {
           "type": [
@@ -3053,7 +3303,8 @@
             "null"
           ],
           "default": null,
-          "description": "scroll by screen lines when 'wrap' is set. (Vim option: 'smoothscroll', short: 'sms')"
+          "description": "scroll by screen lines when 'wrap' is set. (Vim option: 'smoothscroll', short: 'sms')",
+          "scope": "language-overridable"
         },
         "vim-options.softtabstop": {
           "type": [
@@ -3065,7 +3316,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of spaces that <Tab> uses while editing. (Vim option: 'softtabstop', short: 'sts')"
+          "description": "number of spaces that <Tab> uses while editing. (Vim option: 'softtabstop', short: 'sts')",
+          "scope": "language-overridable"
         },
         "vim-options.spell": {
           "type": [
@@ -3077,7 +3329,8 @@
             "null"
           ],
           "default": null,
-          "description": "enable spell checking. (Vim option: 'spell', short: 'spell')"
+          "description": "enable spell checking. (Vim option: 'spell', short: 'spell')",
+          "scope": "language-overridable"
         },
         "vim-options.spellcapcheck": {
           "type": [
@@ -3089,7 +3342,8 @@
             "null"
           ],
           "default": null,
-          "description": "pattern to locate end of a sentence. (Vim option: 'spellcapcheck', short: 'spc')"
+          "description": "pattern to locate end of a sentence. (Vim option: 'spellcapcheck', short: 'spc')",
+          "scope": "language-overridable"
         },
         "vim-options.spellfile": {
           "type": [
@@ -3101,7 +3355,8 @@
             "null"
           ],
           "default": null,
-          "description": "files where |zg| and |zw| store words. (Vim option: 'spellfile', short: 'spf')"
+          "description": "files where |zg| and |zw| store words. (Vim option: 'spellfile', short: 'spf')",
+          "scope": "language-overridable"
         },
         "vim-options.spelllang": {
           "type": [
@@ -3113,7 +3368,8 @@
             "null"
           ],
           "default": null,
-          "description": "language(s) to do spell checking for. (Vim option: 'spelllang', short: 'spl')"
+          "description": "language(s) to do spell checking for. (Vim option: 'spelllang', short: 'spl')",
+          "scope": "language-overridable"
         },
         "vim-options.spelloptions": {
           "type": [
@@ -3125,7 +3381,8 @@
             "null"
           ],
           "default": null,
-          "description": "options for spell checking. (Vim option: 'spelloptions', short: 'spo')"
+          "description": "options for spell checking. (Vim option: 'spelloptions', short: 'spo')",
+          "scope": "language-overridable"
         },
         "vim-options.spellsuggest": {
           "type": [
@@ -3137,7 +3394,8 @@
             "null"
           ],
           "default": null,
-          "description": "method(s) used to suggest spelling corrections. (Vim option: 'spellsuggest', short: 'sps')"
+          "description": "method(s) used to suggest spelling corrections. (Vim option: 'spellsuggest', short: 'sps')",
+          "scope": "language-overridable"
         },
         "vim-options.splitbelow": {
           "type": [
@@ -3149,7 +3407,8 @@
             "null"
           ],
           "default": null,
-          "description": "new window from split is below the current one. (Vim option: 'splitbelow', short: 'sb')"
+          "description": "new window from split is below the current one. (Vim option: 'splitbelow', short: 'sb')",
+          "scope": "language-overridable"
         },
         "vim-options.splitkeep": {
           "type": [
@@ -3161,7 +3420,8 @@
             "null"
           ],
           "default": null,
-          "description": "determines scroll behavior for split windows. (Vim option: 'splitkeep', short: 'spk')"
+          "description": "determines scroll behavior for split windows. (Vim option: 'splitkeep', short: 'spk')",
+          "scope": "language-overridable"
         },
         "vim-options.splitright": {
           "type": [
@@ -3173,7 +3433,8 @@
             "null"
           ],
           "default": null,
-          "description": "new window is put right of the current one. (Vim option: 'splitright', short: 'spr')"
+          "description": "new window is put right of the current one. (Vim option: 'splitright', short: 'spr')",
+          "scope": "language-overridable"
         },
         "vim-options.startofline": {
           "type": [
@@ -3185,7 +3446,8 @@
             "null"
           ],
           "default": null,
-          "description": "commands move cursor to first non-blank in line. (Vim option: 'startofline', short: 'sol')"
+          "description": "commands move cursor to first non-blank in line. (Vim option: 'startofline', short: 'sol')",
+          "scope": "language-overridable"
         },
         "vim-options.statuscolumn": {
           "type": [
@@ -3197,7 +3459,8 @@
             "null"
           ],
           "default": null,
-          "description": "custom format for the status column. (Vim option: 'statuscolumn', short: 'stc')"
+          "description": "custom format for the status column. (Vim option: 'statuscolumn', short: 'stc')",
+          "scope": "language-overridable"
         },
         "vim-options.statusline": {
           "type": [
@@ -3209,7 +3472,8 @@
             "null"
           ],
           "default": null,
-          "description": "custom format for the status line. (Vim option: 'statusline', short: 'stl')"
+          "description": "custom format for the status line. (Vim option: 'statusline', short: 'stl')",
+          "scope": "language-overridable"
         },
         "vim-options.suffixes": {
           "type": [
@@ -3221,7 +3485,8 @@
             "null"
           ],
           "default": null,
-          "description": "suffixes that are ignored with multiple match. (Vim option: 'suffixes', short: 'su')"
+          "description": "suffixes that are ignored with multiple match. (Vim option: 'suffixes', short: 'su')",
+          "scope": "language-overridable"
         },
         "vim-options.suffixesadd": {
           "type": [
@@ -3233,7 +3498,8 @@
             "null"
           ],
           "default": null,
-          "description": "suffixes added when searching for a file. (Vim option: 'suffixesadd', short: 'sua')"
+          "description": "suffixes added when searching for a file. (Vim option: 'suffixesadd', short: 'sua')",
+          "scope": "language-overridable"
         },
         "vim-options.swapfile": {
           "type": [
@@ -3245,7 +3511,8 @@
             "null"
           ],
           "default": null,
-          "description": "whether to use a swapfile for a buffer. (Vim option: 'swapfile', short: 'swf')"
+          "description": "whether to use a swapfile for a buffer. (Vim option: 'swapfile', short: 'swf')",
+          "scope": "language-overridable"
         },
         "vim-options.switchbuf": {
           "type": [
@@ -3257,7 +3524,8 @@
             "null"
           ],
           "default": null,
-          "description": "sets behavior when switching to another buffer. (Vim option: 'switchbuf', short: 'swb')"
+          "description": "sets behavior when switching to another buffer. (Vim option: 'switchbuf', short: 'swb')",
+          "scope": "language-overridable"
         },
         "vim-options.synmaxcol": {
           "type": [
@@ -3269,7 +3537,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum column to find syntax items. (Vim option: 'synmaxcol', short: 'smc')"
+          "description": "maximum column to find syntax items. (Vim option: 'synmaxcol', short: 'smc')",
+          "scope": "language-overridable"
         },
         "vim-options.syntax": {
           "type": [
@@ -3281,7 +3550,8 @@
             "null"
           ],
           "default": null,
-          "description": "syntax to be loaded for current buffer. (Vim option: 'syntax', short: 'syn')"
+          "description": "syntax to be loaded for current buffer. (Vim option: 'syntax', short: 'syn')",
+          "scope": "language-overridable"
         },
         "vim-options.tabclose": {
           "type": [
@@ -3293,7 +3563,8 @@
             "null"
           ],
           "default": null,
-          "description": "which tab page to focus when closing a tab. (Vim option: 'tabclose', short: 'tcl')"
+          "description": "which tab page to focus when closing a tab. (Vim option: 'tabclose', short: 'tcl')",
+          "scope": "language-overridable"
         },
         "vim-options.tabline": {
           "type": [
@@ -3305,7 +3576,8 @@
             "null"
           ],
           "default": null,
-          "description": "custom format for the console tab pages line. (Vim option: 'tabline', short: 'tal')"
+          "description": "custom format for the console tab pages line. (Vim option: 'tabline', short: 'tal')",
+          "scope": "language-overridable"
         },
         "vim-options.tabpagemax": {
           "type": [
@@ -3317,7 +3589,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum number of tab pages for |-p| and \"tab all\". (Vim option: 'tabpagemax', short: 'tpm')"
+          "description": "maximum number of tab pages for |-p| and \"tab all\". (Vim option: 'tabpagemax', short: 'tpm')",
+          "scope": "language-overridable"
         },
         "vim-options.tabstop": {
           "type": [
@@ -3329,7 +3602,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of spaces that <Tab> in file uses. (Vim option: 'tabstop', short: 'ts')"
+          "description": "number of spaces that <Tab> in file uses. (Vim option: 'tabstop', short: 'ts')",
+          "scope": "language-overridable"
         },
         "vim-options.tagbsearch": {
           "type": [
@@ -3341,7 +3615,8 @@
             "null"
           ],
           "default": null,
-          "description": "use binary searching in tags files. (Vim option: 'tagbsearch', short: 'tbs')"
+          "description": "use binary searching in tags files. (Vim option: 'tagbsearch', short: 'tbs')",
+          "scope": "language-overridable"
         },
         "vim-options.tagcase": {
           "type": [
@@ -3353,7 +3628,8 @@
             "null"
           ],
           "default": null,
-          "description": "how to handle case when searching in tags files. (Vim option: 'tagcase', short: 'tc')"
+          "description": "how to handle case when searching in tags files. (Vim option: 'tagcase', short: 'tc')",
+          "scope": "language-overridable"
         },
         "vim-options.tagfunc": {
           "type": [
@@ -3365,7 +3641,8 @@
             "null"
           ],
           "default": null,
-          "description": "function to get list of tag matches. (Vim option: 'tagfunc', short: 'tfu')"
+          "description": "function to get list of tag matches. (Vim option: 'tagfunc', short: 'tfu')",
+          "scope": "language-overridable"
         },
         "vim-options.taglength": {
           "type": [
@@ -3377,7 +3654,8 @@
             "null"
           ],
           "default": null,
-          "description": "number of significant characters for a tag. (Vim option: 'taglength', short: 'tl')"
+          "description": "number of significant characters for a tag. (Vim option: 'taglength', short: 'tl')",
+          "scope": "language-overridable"
         },
         "vim-options.tagrelative": {
           "type": [
@@ -3389,7 +3667,8 @@
             "null"
           ],
           "default": null,
-          "description": "file names in tag file are relative. (Vim option: 'tagrelative', short: 'tr')"
+          "description": "file names in tag file are relative. (Vim option: 'tagrelative', short: 'tr')",
+          "scope": "language-overridable"
         },
         "vim-options.tags": {
           "type": [
@@ -3401,7 +3680,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of file names used by the tag command. (Vim option: 'tags', short: 'tag')"
+          "description": "list of file names used by the tag command. (Vim option: 'tags', short: 'tag')",
+          "scope": "language-overridable"
         },
         "vim-options.tagstack": {
           "type": [
@@ -3413,7 +3693,8 @@
             "null"
           ],
           "default": null,
-          "description": "push tags onto the tag stack. (Vim option: 'tagstack', short: 'tgst')"
+          "description": "push tags onto the tag stack. (Vim option: 'tagstack', short: 'tgst')",
+          "scope": "language-overridable"
         },
         "vim-options.term": {
           "type": [
@@ -3425,7 +3706,8 @@
             "null"
           ],
           "default": null,
-          "description": "name of the terminal. (Vim option: 'term', short: 'term')"
+          "description": "name of the terminal. (Vim option: 'term', short: 'term')",
+          "scope": "language-overridable"
         },
         "vim-options.termbidi": {
           "type": [
@@ -3437,7 +3719,8 @@
             "null"
           ],
           "default": null,
-          "description": "terminal takes care of bi-directionality. (Vim option: 'termbidi', short: 'tbidi')"
+          "description": "terminal takes care of bi-directionality. (Vim option: 'termbidi', short: 'tbidi')",
+          "scope": "language-overridable"
         },
         "vim-options.termguicolors": {
           "type": [
@@ -3449,7 +3732,8 @@
             "null"
           ],
           "default": null,
-          "description": "enable 24-bit RGB color in the TUI. (Vim option: 'termguicolors', short: 'tgc')"
+          "description": "enable 24-bit RGB color in the TUI. (Vim option: 'termguicolors', short: 'tgc')",
+          "scope": "language-overridable"
         },
         "vim-options.textwidth": {
           "type": [
@@ -3461,7 +3745,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum width of text that is being inserted. (Vim option: 'textwidth', short: 'tw')"
+          "description": "maximum width of text that is being inserted. (Vim option: 'textwidth', short: 'tw')",
+          "scope": "language-overridable"
         },
         "vim-options.thesaurus": {
           "type": [
@@ -3473,7 +3758,8 @@
             "null"
           ],
           "default": null,
-          "description": "list of thesaurus files for keyword completion. (Vim option: 'thesaurus', short: 'tsr')"
+          "description": "list of thesaurus files for keyword completion. (Vim option: 'thesaurus', short: 'tsr')",
+          "scope": "language-overridable"
         },
         "vim-options.thesaurusfunc": {
           "type": [
@@ -3485,7 +3771,8 @@
             "null"
           ],
           "default": null,
-          "description": "function to be used for thesaurus completion. (Vim option: 'thesaurusfunc', short: 'tsrfu')"
+          "description": "function to be used for thesaurus completion. (Vim option: 'thesaurusfunc', short: 'tsrfu')",
+          "scope": "language-overridable"
         },
         "vim-options.tildeop": {
           "type": [
@@ -3497,7 +3784,8 @@
             "null"
           ],
           "default": null,
-          "description": "tilde command \"~\" behaves like an operator. (Vim option: 'tildeop', short: 'top')"
+          "description": "tilde command \"~\" behaves like an operator. (Vim option: 'tildeop', short: 'top')",
+          "scope": "language-overridable"
         },
         "vim-options.timeout": {
           "type": [
@@ -3509,7 +3797,8 @@
             "null"
           ],
           "default": null,
-          "description": "time out on mappings and key codes. (Vim option: 'timeout', short: 'to')"
+          "description": "time out on mappings and key codes. (Vim option: 'timeout', short: 'to')",
+          "scope": "language-overridable"
         },
         "vim-options.timeoutlen": {
           "type": [
@@ -3521,7 +3810,8 @@
             "null"
           ],
           "default": null,
-          "description": "time out time in milliseconds. (Vim option: 'timeoutlen', short: 'tm')"
+          "description": "time out time in milliseconds. (Vim option: 'timeoutlen', short: 'tm')",
+          "scope": "language-overridable"
         },
         "vim-options.title": {
           "type": [
@@ -3533,7 +3823,8 @@
             "null"
           ],
           "default": null,
-          "description": "let Vim set the title of the window. (Vim option: 'title', short: 'title')"
+          "description": "let Vim set the title of the window. (Vim option: 'title', short: 'title')",
+          "scope": "language-overridable"
         },
         "vim-options.titlelen": {
           "type": [
@@ -3545,7 +3836,8 @@
             "null"
           ],
           "default": null,
-          "description": "percentage of 'columns' used for window title. (Vim option: 'titlelen', short: 'titlelen')"
+          "description": "percentage of 'columns' used for window title. (Vim option: 'titlelen', short: 'titlelen')",
+          "scope": "language-overridable"
         },
         "vim-options.titleold": {
           "type": [
@@ -3557,7 +3849,8 @@
             "null"
           ],
           "default": null,
-          "description": "old title, restored when exiting. (Vim option: 'titleold', short: 'titleold')"
+          "description": "old title, restored when exiting. (Vim option: 'titleold', short: 'titleold')",
+          "scope": "language-overridable"
         },
         "vim-options.titlestring": {
           "type": [
@@ -3569,7 +3862,8 @@
             "null"
           ],
           "default": null,
-          "description": "string to use for the Vim window title. (Vim option: 'titlestring', short: 'titlestring')"
+          "description": "string to use for the Vim window title. (Vim option: 'titlestring', short: 'titlestring')",
+          "scope": "language-overridable"
         },
         "vim-options.ttimeout": {
           "type": [
@@ -3581,7 +3875,8 @@
             "null"
           ],
           "default": null,
-          "description": "time out on mappings. (Vim option: 'ttimeout', short: 'ttimeout')"
+          "description": "time out on mappings. (Vim option: 'ttimeout', short: 'ttimeout')",
+          "scope": "language-overridable"
         },
         "vim-options.ttimeoutlen": {
           "type": [
@@ -3593,7 +3888,8 @@
             "null"
           ],
           "default": null,
-          "description": "time out time for key codes in milliseconds. (Vim option: 'ttimeoutlen', short: 'ttm')"
+          "description": "time out time for key codes in milliseconds. (Vim option: 'ttimeoutlen', short: 'ttm')",
+          "scope": "language-overridable"
         },
         "vim-options.ttytype": {
           "type": [
@@ -3605,7 +3901,8 @@
             "null"
           ],
           "default": null,
-          "description": "alias for 'term'. (Vim option: 'ttytype', short: 'tty')"
+          "description": "alias for 'term'. (Vim option: 'ttytype', short: 'tty')",
+          "scope": "language-overridable"
         },
         "vim-options.undodir": {
           "type": [
@@ -3617,7 +3914,8 @@
             "null"
           ],
           "default": null,
-          "description": "where to store undo files. (Vim option: 'undodir', short: 'udir')"
+          "description": "where to store undo files. (Vim option: 'undodir', short: 'udir')",
+          "scope": "language-overridable"
         },
         "vim-options.undofile": {
           "type": [
@@ -3629,7 +3927,8 @@
             "null"
           ],
           "default": null,
-          "description": "save undo information in a file. (Vim option: 'undofile', short: 'udf')"
+          "description": "save undo information in a file. (Vim option: 'undofile', short: 'udf')",
+          "scope": "language-overridable"
         },
         "vim-options.undolevels": {
           "type": [
@@ -3641,7 +3940,8 @@
             "null"
           ],
           "default": null,
-          "description": "maximum number of changes that can be undone. (Vim option: 'undolevels', short: 'ul')"
+          "description": "maximum number of changes that can be undone. (Vim option: 'undolevels', short: 'ul')",
+          "scope": "language-overridable"
         },
         "vim-options.undoreload": {
           "type": [
@@ -3653,7 +3953,8 @@
             "null"
           ],
           "default": null,
-          "description": "max nr of lines to save for undo on a buffer reload. (Vim option: 'undoreload', short: 'ur')"
+          "description": "max nr of lines to save for undo on a buffer reload. (Vim option: 'undoreload', short: 'ur')",
+          "scope": "language-overridable"
         },
         "vim-options.updatecount": {
           "type": [
@@ -3665,7 +3966,8 @@
             "null"
           ],
           "default": null,
-          "description": "after this many characters flush swap file. (Vim option: 'updatecount', short: 'uc')"
+          "description": "after this many characters flush swap file. (Vim option: 'updatecount', short: 'uc')",
+          "scope": "language-overridable"
         },
         "vim-options.updatetime": {
           "type": [
@@ -3677,7 +3979,8 @@
             "null"
           ],
           "default": null,
-          "description": "after this many milliseconds flush swap file. (Vim option: 'updatetime', short: 'ut')"
+          "description": "after this many milliseconds flush swap file. (Vim option: 'updatetime', short: 'ut')",
+          "scope": "language-overridable"
         },
         "vim-options.varsofttabstop": {
           "type": [
@@ -3689,7 +3992,8 @@
             "null"
           ],
           "default": null,
-          "description": "a list of number of spaces when typing <Tab>. (Vim option: 'varsofttabstop', short: 'vsts')"
+          "description": "a list of number of spaces when typing <Tab>. (Vim option: 'varsofttabstop', short: 'vsts')",
+          "scope": "language-overridable"
         },
         "vim-options.vartabstop": {
           "type": [
@@ -3701,7 +4005,8 @@
             "null"
           ],
           "default": null,
-          "description": "a list of number of spaces for <Tab>s. (Vim option: 'vartabstop', short: 'vts')"
+          "description": "a list of number of spaces for <Tab>s. (Vim option: 'vartabstop', short: 'vts')",
+          "scope": "language-overridable"
         },
         "vim-options.verbose": {
           "type": [
@@ -3713,7 +4018,8 @@
             "null"
           ],
           "default": null,
-          "description": "give informative messages. (Vim option: 'verbose', short: 'vbs')"
+          "description": "give informative messages. (Vim option: 'verbose', short: 'vbs')",
+          "scope": "language-overridable"
         },
         "vim-options.verbosefile": {
           "type": [
@@ -3725,7 +4031,8 @@
             "null"
           ],
           "default": null,
-          "description": "file to write messages in. (Vim option: 'verbosefile', short: 'vfile')"
+          "description": "file to write messages in. (Vim option: 'verbosefile', short: 'vfile')",
+          "scope": "language-overridable"
         },
         "vim-options.viewdir": {
           "type": [
@@ -3737,7 +4044,8 @@
             "null"
           ],
           "default": null,
-          "description": "directory where to store files with :mkview. (Vim option: 'viewdir', short: 'vdir')"
+          "description": "directory where to store files with :mkview. (Vim option: 'viewdir', short: 'vdir')",
+          "scope": "language-overridable"
         },
         "vim-options.viewoptions": {
           "type": [
@@ -3749,7 +4057,8 @@
             "null"
           ],
           "default": null,
-          "description": "specifies what to save for :mkview. (Vim option: 'viewoptions', short: 'vop')"
+          "description": "specifies what to save for :mkview. (Vim option: 'viewoptions', short: 'vop')",
+          "scope": "language-overridable"
         },
         "vim-options.virtualedit": {
           "type": [
@@ -3761,7 +4070,8 @@
             "null"
           ],
           "default": null,
-          "description": "when to use virtual editing. (Vim option: 'virtualedit', short: 've')"
+          "description": "when to use virtual editing. (Vim option: 'virtualedit', short: 've')",
+          "scope": "language-overridable"
         },
         "vim-options.visualbell": {
           "type": [
@@ -3773,7 +4083,8 @@
             "null"
           ],
           "default": null,
-          "description": "use visual bell instead of beeping. (Vim option: 'visualbell', short: 'vb')"
+          "description": "use visual bell instead of beeping. (Vim option: 'visualbell', short: 'vb')",
+          "scope": "language-overridable"
         },
         "vim-options.warn": {
           "type": [
@@ -3785,7 +4096,8 @@
             "null"
           ],
           "default": null,
-          "description": "warn for shell command when buffer was changed. (Vim option: 'warn', short: 'warn')"
+          "description": "warn for shell command when buffer was changed. (Vim option: 'warn', short: 'warn')",
+          "scope": "language-overridable"
         },
         "vim-options.whichwrap": {
           "type": [
@@ -3797,7 +4109,8 @@
             "null"
           ],
           "default": null,
-          "description": "allow specified keys to cross line boundaries. (Vim option: 'whichwrap', short: 'ww')"
+          "description": "allow specified keys to cross line boundaries. (Vim option: 'whichwrap', short: 'ww')",
+          "scope": "language-overridable"
         },
         "vim-options.wildchar": {
           "type": [
@@ -3809,7 +4122,8 @@
             "null"
           ],
           "default": null,
-          "description": "command-line character for wildcard expansion. (Vim option: 'wildchar', short: 'wc')"
+          "description": "command-line character for wildcard expansion. (Vim option: 'wildchar', short: 'wc')",
+          "scope": "language-overridable"
         },
         "vim-options.wildcharm": {
           "type": [
@@ -3821,7 +4135,8 @@
             "null"
           ],
           "default": null,
-          "description": "like 'wildchar' but also works when mapped. (Vim option: 'wildcharm', short: 'wcm')"
+          "description": "like 'wildchar' but also works when mapped. (Vim option: 'wildcharm', short: 'wcm')",
+          "scope": "language-overridable"
         },
         "vim-options.wildignore": {
           "type": [
@@ -3833,7 +4148,8 @@
             "null"
           ],
           "default": null,
-          "description": "files matching these patterns are not completed. (Vim option: 'wildignore', short: 'wig')"
+          "description": "files matching these patterns are not completed. (Vim option: 'wildignore', short: 'wig')",
+          "scope": "language-overridable"
         },
         "vim-options.wildignorecase": {
           "type": [
@@ -3845,7 +4161,8 @@
             "null"
           ],
           "default": null,
-          "description": "ignore case when completing file names. (Vim option: 'wildignorecase', short: 'wic')"
+          "description": "ignore case when completing file names. (Vim option: 'wildignorecase', short: 'wic')",
+          "scope": "language-overridable"
         },
         "vim-options.wildmenu": {
           "type": [
@@ -3857,7 +4174,8 @@
             "null"
           ],
           "default": null,
-          "description": "use menu for command line completion. (Vim option: 'wildmenu', short: 'wmnu')"
+          "description": "use menu for command line completion. (Vim option: 'wildmenu', short: 'wmnu')",
+          "scope": "language-overridable"
         },
         "vim-options.wildmode": {
           "type": [
@@ -3869,7 +4187,8 @@
             "null"
           ],
           "default": null,
-          "description": "mode for 'wildchar' command-line expansion. (Vim option: 'wildmode', short: 'wim')"
+          "description": "mode for 'wildchar' command-line expansion. (Vim option: 'wildmode', short: 'wim')",
+          "scope": "language-overridable"
         },
         "vim-options.wildoptions": {
           "type": [
@@ -3881,7 +4200,8 @@
             "null"
           ],
           "default": null,
-          "description": "specifies how command line completion is done. (Vim option: 'wildoptions', short: 'wop')"
+          "description": "specifies how command line completion is done. (Vim option: 'wildoptions', short: 'wop')",
+          "scope": "language-overridable"
         },
         "vim-options.winaltkeys": {
           "type": [
@@ -3893,7 +4213,8 @@
             "null"
           ],
           "default": null,
-          "description": "when the windows system handles ALT keys. (Vim option: 'winaltkeys', short: 'wak')"
+          "description": "when the windows system handles ALT keys. (Vim option: 'winaltkeys', short: 'wak')",
+          "scope": "language-overridable"
         },
         "vim-options.window": {
           "type": [
@@ -3905,7 +4226,8 @@
             "null"
           ],
           "default": null,
-          "description": "nr of lines to scroll for CTRL-F and CTRL-B. (Vim option: 'window', short: 'wi')"
+          "description": "nr of lines to scroll for CTRL-F and CTRL-B. (Vim option: 'window', short: 'wi')",
+          "scope": "language-overridable"
         },
         "vim-options.winfixbuf": {
           "type": [
@@ -3917,7 +4239,8 @@
             "null"
           ],
           "default": null,
-          "description": "keep window focused on a single buffer. (Vim option: 'winfixbuf', short: 'wfb')"
+          "description": "keep window focused on a single buffer. (Vim option: 'winfixbuf', short: 'wfb')",
+          "scope": "language-overridable"
         },
         "vim-options.winfixheight": {
           "type": [
@@ -3929,7 +4252,8 @@
             "null"
           ],
           "default": null,
-          "description": "keep window height when opening/closing windows. (Vim option: 'winfixheight', short: 'wfh')"
+          "description": "keep window height when opening/closing windows. (Vim option: 'winfixheight', short: 'wfh')",
+          "scope": "language-overridable"
         },
         "vim-options.winfixwidth": {
           "type": [
@@ -3941,7 +4265,8 @@
             "null"
           ],
           "default": null,
-          "description": "keep window width when opening/closing windows. (Vim option: 'winfixwidth', short: 'wfw')"
+          "description": "keep window width when opening/closing windows. (Vim option: 'winfixwidth', short: 'wfw')",
+          "scope": "language-overridable"
         },
         "vim-options.winheight": {
           "type": [
@@ -3953,7 +4278,8 @@
             "null"
           ],
           "default": null,
-          "description": "minimum number of lines for the current window. (Vim option: 'winheight', short: 'wh')"
+          "description": "minimum number of lines for the current window. (Vim option: 'winheight', short: 'wh')",
+          "scope": "language-overridable"
         },
         "vim-options.winhighlight": {
           "type": [
@@ -3965,7 +4291,8 @@
             "null"
           ],
           "default": null,
-          "description": "window-local highlighting. (Vim option: 'winhighlight', short: 'winhl')"
+          "description": "window-local highlighting. (Vim option: 'winhighlight', short: 'winhl')",
+          "scope": "language-overridable"
         },
         "vim-options.winminheight": {
           "type": [
@@ -3977,7 +4304,8 @@
             "null"
           ],
           "default": null,
-          "description": "minimum number of lines for any window. (Vim option: 'winminheight', short: 'wmh')"
+          "description": "minimum number of lines for any window. (Vim option: 'winminheight', short: 'wmh')",
+          "scope": "language-overridable"
         },
         "vim-options.winminwidth": {
           "type": [
@@ -3989,7 +4317,8 @@
             "null"
           ],
           "default": null,
-          "description": "minimal number of columns for any window. (Vim option: 'winminwidth', short: 'wmw')"
+          "description": "minimal number of columns for any window. (Vim option: 'winminwidth', short: 'wmw')",
+          "scope": "language-overridable"
         },
         "vim-options.winwidth": {
           "type": [
@@ -4001,7 +4330,8 @@
             "null"
           ],
           "default": null,
-          "description": "minimal number of columns for current window. (Vim option: 'winwidth', short: 'wiw')"
+          "description": "minimal number of columns for current window. (Vim option: 'winwidth', short: 'wiw')",
+          "scope": "language-overridable"
         },
         "vim-options.wrap": {
           "type": [
@@ -4013,7 +4343,8 @@
             "null"
           ],
           "default": null,
-          "description": "long lines wrap and continue on the next line. (Vim option: 'wrap', short: 'wrap')"
+          "description": "long lines wrap and continue on the next line. (Vim option: 'wrap', short: 'wrap')",
+          "scope": "language-overridable"
         },
         "vim-options.wrapmargin": {
           "type": [
@@ -4025,7 +4356,8 @@
             "null"
           ],
           "default": null,
-          "description": "chars from the right where wrapping starts. (Vim option: 'wrapmargin', short: 'wm')"
+          "description": "chars from the right where wrapping starts. (Vim option: 'wrapmargin', short: 'wm')",
+          "scope": "language-overridable"
         },
         "vim-options.wrapscan": {
           "type": [
@@ -4037,7 +4369,8 @@
             "null"
           ],
           "default": null,
-          "description": "searches wrap around the end of the file. (Vim option: 'wrapscan', short: 'ws')"
+          "description": "searches wrap around the end of the file. (Vim option: 'wrapscan', short: 'ws')",
+          "scope": "language-overridable"
         },
         "vim-options.write": {
           "type": [
@@ -4049,7 +4382,8 @@
             "null"
           ],
           "default": null,
-          "description": "writing to a file is allowed. (Vim option: 'write', short: 'write')"
+          "description": "writing to a file is allowed. (Vim option: 'write', short: 'write')",
+          "scope": "language-overridable"
         },
         "vim-options.writeany": {
           "type": [
@@ -4061,7 +4395,8 @@
             "null"
           ],
           "default": null,
-          "description": "write to file with no need for \"!\" override. (Vim option: 'writeany', short: 'wa')"
+          "description": "write to file with no need for \"!\" override. (Vim option: 'writeany', short: 'wa')",
+          "scope": "language-overridable"
         },
         "vim-options.writebackup": {
           "type": [
@@ -4073,7 +4408,8 @@
             "null"
           ],
           "default": null,
-          "description": "make a backup before overwriting a file. (Vim option: 'writebackup', short: 'wb')"
+          "description": "make a backup before overwriting a file. (Vim option: 'writebackup', short: 'wb')",
+          "scope": "language-overridable"
         },
         "vim-options.writedelay": {
           "type": [
@@ -4085,7 +4421,8 @@
             "null"
           ],
           "default": null,
-          "description": "delay this many msec for each char (for debug). (Vim option: 'writedelay', short: 'wd')"
+          "description": "delay this many msec for each char (for debug). (Vim option: 'writedelay', short: 'wd')",
+          "scope": "language-overridable"
         }
       }
     },

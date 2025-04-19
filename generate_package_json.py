@@ -68,6 +68,7 @@ def generate_config_properties(options: List[Tuple[str, str, str]]) -> Dict:
             # Set default to null (no setting)
             "default": None,
             "description": f"{description}. (Vim option: '{option_name}', short: '{short_name}')",
+            "scope": "language-overridable",
         }
 
         properties[property_name] = property_def
