@@ -42,7 +42,4052 @@
     "configuration": {
       "type": "object",
       "title": "Configure vim options",
-      "properties": {}
+      "properties": {
+        "vim-options.allowrevins": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "allow CTRL-_ in Insert mode. (Vim option: 'allowrevins', short: 'ari')"
+        },
+        "vim-options.ambiwidth": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "what to do with Unicode chars of ambiguous width. (Vim option: 'ambiwidth', short: 'ambw')"
+        },
+        "vim-options.arabic": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "for Arabic as a default second language. (Vim option: 'arabic', short: 'arab')"
+        },
+        "vim-options.arabicshape": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "do shaping for Arabic characters. (Vim option: 'arabicshape', short: 'arshape')"
+        },
+        "vim-options.autochdir": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "change directory to the file in the current window. (Vim option: 'autochdir', short: 'acd')"
+        },
+        "vim-options.autoindent": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "take indent for new line from previous line. (Vim option: 'autoindent', short: 'ai')"
+        },
+        "vim-options.autoread": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "autom. read file when changed outside of Vim. (Vim option: 'autoread', short: 'ar')"
+        },
+        "vim-options.autowrite": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "automatically write file if changed. (Vim option: 'autowrite', short: 'aw')"
+        },
+        "vim-options.autowriteall": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "as 'autowrite', but works with more commands. (Vim option: 'autowriteall', short: 'awa')"
+        },
+        "vim-options.background": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "\"dark\" or \"light\", used for highlight colors. (Vim option: 'background', short: 'bg')"
+        },
+        "vim-options.backspace": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "how backspace works at start of line. (Vim option: 'backspace', short: 'bs')"
+        },
+        "vim-options.backup": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "keep backup file after overwriting a file. (Vim option: 'backup', short: 'bk')"
+        },
+        "vim-options.backupcopy": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "make backup as a copy, don't rename the file. (Vim option: 'backupcopy', short: 'bkc')"
+        },
+        "vim-options.backupdir": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of directories for the backup file. (Vim option: 'backupdir', short: 'bdir')"
+        },
+        "vim-options.backupext": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "extension used for the backup file. (Vim option: 'backupext', short: 'bex')"
+        },
+        "vim-options.backupskip": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "no backup for files that match these patterns. (Vim option: 'backupskip', short: 'bsk')"
+        },
+        "vim-options.belloff": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "do not ring the bell for these reasons. (Vim option: 'belloff', short: 'bo')"
+        },
+        "vim-options.binary": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "read/write/edit file in binary mode. (Vim option: 'binary', short: 'bin')"
+        },
+        "vim-options.bomb": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "prepend a Byte Order Mark to the file. (Vim option: 'bomb', short: 'bomb')"
+        },
+        "vim-options.breakat": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "characters that may cause a line break. (Vim option: 'breakat', short: 'brk')"
+        },
+        "vim-options.breakindent": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "wrapped line repeats indent. (Vim option: 'breakindent', short: 'bri')"
+        },
+        "vim-options.breakindentopt": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "settings for 'breakindent'. (Vim option: 'breakindentopt', short: 'briopt')"
+        },
+        "vim-options.browsedir": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "which directory to start browsing in. (Vim option: 'browsedir', short: 'bsdir')"
+        },
+        "vim-options.bufhidden": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "what to do when buffer is no longer in window. (Vim option: 'bufhidden', short: 'bh')"
+        },
+        "vim-options.buflisted": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "whether the buffer shows up in the buffer list. (Vim option: 'buflisted', short: 'bl')"
+        },
+        "vim-options.buftype": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "special type of buffer. (Vim option: 'buftype', short: 'bt')"
+        },
+        "vim-options.casemap": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "specifies how case of letters is changed. (Vim option: 'casemap', short: 'cmp')"
+        },
+        "vim-options.cdhome": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "change directory to the home directory by \":cd\". (Vim option: 'cdhome', short: 'cdh')"
+        },
+        "vim-options.cdpath": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of directories searched with \":cd\". (Vim option: 'cdpath', short: 'cd')"
+        },
+        "vim-options.cedit": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "key used to open the command-line window. (Vim option: 'cedit', short: 'cedit')"
+        },
+        "vim-options.charconvert": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "expression for character encoding conversion. (Vim option: 'charconvert', short: 'ccv')"
+        },
+        "vim-options.chistory": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum number of quickfix lists in history. (Vim option: 'chistory', short: 'chi')"
+        },
+        "vim-options.cindent": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "do C program indenting. (Vim option: 'cindent', short: 'cin')"
+        },
+        "vim-options.cinkeys": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "keys that trigger indent when 'cindent' is set. (Vim option: 'cinkeys', short: 'cink')"
+        },
+        "vim-options.cinoptions": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "how to do indenting when 'cindent' is set. (Vim option: 'cinoptions', short: 'cino')"
+        },
+        "vim-options.cinscopedecls": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "words that are recognized by 'cino-g'. (Vim option: 'cinscopedecls', short: 'cinsd')"
+        },
+        "vim-options.cinwords": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "words where 'si' and 'cin' add an indent. (Vim option: 'cinwords', short: 'cinw')"
+        },
+        "vim-options.clipboard": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use the clipboard as the unnamed register. (Vim option: 'clipboard', short: 'cb')"
+        },
+        "vim-options.cmdheight": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of lines to use for the command-line. (Vim option: 'cmdheight', short: 'ch')"
+        },
+        "vim-options.cmdwinheight": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "height of the command-line window. (Vim option: 'cmdwinheight', short: 'cwh')"
+        },
+        "vim-options.colorcolumn": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "columns to highlight. (Vim option: 'colorcolumn', short: 'cc')"
+        },
+        "vim-options.columns": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of columns in the display. (Vim option: 'columns', short: 'co')"
+        },
+        "vim-options.comments": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "patterns that can start a comment line. (Vim option: 'comments', short: 'com')"
+        },
+        "vim-options.commentstring": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "template for comments; used for fold marker. (Vim option: 'commentstring', short: 'cms')"
+        },
+        "vim-options.complete": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "specify how Insert mode completion works. (Vim option: 'complete', short: 'cpt')"
+        },
+        "vim-options.completefunc": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "function to be used for Insert mode completion. (Vim option: 'completefunc', short: 'cfu')"
+        },
+        "vim-options.completeopt": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "options for Insert mode completion. (Vim option: 'completeopt', short: 'cot')"
+        },
+        "vim-options.completeslash": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "like 'shellslash' for completion. (Vim option: 'completeslash', short: 'csl')"
+        },
+        "vim-options.concealcursor": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "whether concealable text is hidden in cursor line. (Vim option: 'concealcursor', short: 'cocu')"
+        },
+        "vim-options.conceallevel": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "whether concealable text is shown or hidden. (Vim option: 'conceallevel', short: 'cole')"
+        },
+        "vim-options.confirm": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "ask what to do about unsaved/read-only files. (Vim option: 'confirm', short: 'cf')"
+        },
+        "vim-options.copyindent": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "make 'autoindent' use existing indent structure. (Vim option: 'copyindent', short: 'ci')"
+        },
+        "vim-options.cpoptions": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "flags for Vi-compatible behavior. (Vim option: 'cpoptions', short: 'cpo')"
+        },
+        "vim-options.cursorbind": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "move cursor in window as it moves in other windows. (Vim option: 'cursorbind', short: 'crb')"
+        },
+        "vim-options.cursorcolumn": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "highlight the screen column of the cursor. (Vim option: 'cursorcolumn', short: 'cuc')"
+        },
+        "vim-options.cursorline": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "highlight the screen line of the cursor. (Vim option: 'cursorline', short: 'cul')"
+        },
+        "vim-options.cursorlineopt": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "settings for 'cursorline'. (Vim option: 'cursorlineopt', short: 'culopt')"
+        },
+        "vim-options.debug": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "set to \"msg\" to see all error messages. (Vim option: 'debug', short: 'debug')"
+        },
+        "vim-options.define": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "pattern to be used to find a macro definition. (Vim option: 'define', short: 'def')"
+        },
+        "vim-options.delcombine": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "delete combining characters on their own. (Vim option: 'delcombine', short: 'deco')"
+        },
+        "vim-options.dictionary": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of file names used for keyword completion. (Vim option: 'dictionary', short: 'dict')"
+        },
+        "vim-options.diff": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use diff mode for the current window. (Vim option: 'diff', short: 'diff')"
+        },
+        "vim-options.diffexpr": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "expression used to obtain a diff file. (Vim option: 'diffexpr', short: 'dex')"
+        },
+        "vim-options.diffopt": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "options for using diff mode. (Vim option: 'diffopt', short: 'dip')"
+        },
+        "vim-options.digraph": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "enable the entering of digraphs in Insert mode. (Vim option: 'digraph', short: 'dg')"
+        },
+        "vim-options.directory": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of directory names for the swap file. (Vim option: 'directory', short: 'dir')"
+        },
+        "vim-options.display": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of flags for how to display text. (Vim option: 'display', short: 'dy')"
+        },
+        "vim-options.eadirection": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "in which direction 'equalalways' works. (Vim option: 'eadirection', short: 'ead')"
+        },
+        "vim-options.encoding": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "encoding used internally. (Vim option: 'encoding', short: 'enc')"
+        },
+        "vim-options.endoffile": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "write CTRL-Z at end of the file. (Vim option: 'endoffile', short: 'eof')"
+        },
+        "vim-options.endofline": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "write <EOL> for last line in file. (Vim option: 'endofline', short: 'eol')"
+        },
+        "vim-options.equalalways": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "windows are automatically made the same size. (Vim option: 'equalalways', short: 'ea')"
+        },
+        "vim-options.equalprg": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "external program to use for \"=\" command. (Vim option: 'equalprg', short: 'ep')"
+        },
+        "vim-options.errorbells": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "ring the bell for error messages. (Vim option: 'errorbells', short: 'eb')"
+        },
+        "vim-options.errorfile": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "name of the errorfile for the QuickFix mode. (Vim option: 'errorfile', short: 'ef')"
+        },
+        "vim-options.errorformat": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "description of the lines in the error file. (Vim option: 'errorformat', short: 'efm')"
+        },
+        "vim-options.eventignore": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "autocommand events that are ignored. (Vim option: 'eventignore', short: 'ei')"
+        },
+        "vim-options.eventignorewin": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "autocommand events that are ignored in a window. (Vim option: 'eventignorewin', short: 'eiw')"
+        },
+        "vim-options.expandtab": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use spaces when <Tab> is inserted. (Vim option: 'expandtab', short: 'et')"
+        },
+        "vim-options.exrc": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "read init files in the current directory. (Vim option: 'exrc', short: 'ex')"
+        },
+        "vim-options.fileencoding": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "file encoding for multibyte text. (Vim option: 'fileencoding', short: 'fenc')"
+        },
+        "vim-options.fileencodings": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "automatically detected character encodings. (Vim option: 'fileencodings', short: 'fencs')"
+        },
+        "vim-options.fileformat": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "file format used for file I/O. (Vim option: 'fileformat', short: 'ff')"
+        },
+        "vim-options.fileformats": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "automatically detected values for 'fileformat'. (Vim option: 'fileformats', short: 'ffs')"
+        },
+        "vim-options.fileignorecase": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "ignore case when using file names. (Vim option: 'fileignorecase', short: 'fic')"
+        },
+        "vim-options.filetype": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "type of file, used for autocommands. (Vim option: 'filetype', short: 'ft')"
+        },
+        "vim-options.fillchars": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "characters to use for displaying special items. (Vim option: 'fillchars', short: 'fcs')"
+        },
+        "vim-options.findfunc": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "function to be called for the |:find| command. (Vim option: 'findfunc', short: 'ffu')"
+        },
+        "vim-options.fixendofline": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "make sure last line in file has <EOL>. (Vim option: 'fixendofline', short: 'fixeol')"
+        },
+        "vim-options.foldclose": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "close a fold when the cursor leaves it. (Vim option: 'foldclose', short: 'fcl')"
+        },
+        "vim-options.foldcolumn": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "width of the column used to indicate folds. (Vim option: 'foldcolumn', short: 'fdc')"
+        },
+        "vim-options.foldenable": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "set to display all folds open. (Vim option: 'foldenable', short: 'fen')"
+        },
+        "vim-options.foldexpr": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "expression used when 'foldmethod' is \"expr\". (Vim option: 'foldexpr', short: 'fde')"
+        },
+        "vim-options.foldignore": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "ignore lines when 'foldmethod' is \"indent\". (Vim option: 'foldignore', short: 'fdi')"
+        },
+        "vim-options.foldlevel": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "close folds with a level higher than this. (Vim option: 'foldlevel', short: 'fdl')"
+        },
+        "vim-options.foldlevelstart": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "'foldlevel' when starting to edit a file. (Vim option: 'foldlevelstart', short: 'fdls')"
+        },
+        "vim-options.foldmarker": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "markers used when 'foldmethod' is \"marker\". (Vim option: 'foldmarker', short: 'fmr')"
+        },
+        "vim-options.foldmethod": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "folding type. (Vim option: 'foldmethod', short: 'fdm')"
+        },
+        "vim-options.foldminlines": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "minimum number of lines for a fold to be closed. (Vim option: 'foldminlines', short: 'fml')"
+        },
+        "vim-options.foldnestmax": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum fold depth. (Vim option: 'foldnestmax', short: 'fdn')"
+        },
+        "vim-options.foldopen": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "for which commands a fold will be opened. (Vim option: 'foldopen', short: 'fdo')"
+        },
+        "vim-options.foldtext": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "expression used to display for a closed fold. (Vim option: 'foldtext', short: 'fdt')"
+        },
+        "vim-options.formatexpr": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "expression used with \"gq\" command. (Vim option: 'formatexpr', short: 'fex')"
+        },
+        "vim-options.formatlistpat": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "pattern used to recognize a list header. (Vim option: 'formatlistpat', short: 'flp')"
+        },
+        "vim-options.formatoptions": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "how automatic formatting is to be done. (Vim option: 'formatoptions', short: 'fo')"
+        },
+        "vim-options.formatprg": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "name of external program used with \"gq\" command. (Vim option: 'formatprg', short: 'fp')"
+        },
+        "vim-options.fsync": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "whether to invoke fsync() after file write. (Vim option: 'fsync', short: 'fs')"
+        },
+        "vim-options.gdefault": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "the \":substitute\" flag 'g' is default on. (Vim option: 'gdefault', short: 'gd')"
+        },
+        "vim-options.grepformat": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "format of 'grepprg' output. (Vim option: 'grepformat', short: 'gfm')"
+        },
+        "vim-options.grepprg": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "program to use for \":grep\". (Vim option: 'grepprg', short: 'gp')"
+        },
+        "vim-options.guicursor": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "GUI: settings for cursor shape and blinking. (Vim option: 'guicursor', short: 'gcr')"
+        },
+        "vim-options.guifont": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "GUI: Name(s) of font(s) to be used. (Vim option: 'guifont', short: 'gfn')"
+        },
+        "vim-options.guifontwide": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of font names for double-wide characters. (Vim option: 'guifontwide', short: 'gfw')"
+        },
+        "vim-options.guioptions": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "GUI: Which components and options are used. (Vim option: 'guioptions', short: 'go')"
+        },
+        "vim-options.guitablabel": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "GUI: custom label for a tab page. (Vim option: 'guitablabel', short: 'gtl')"
+        },
+        "vim-options.guitabtooltip": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "GUI: custom tooltip for a tab page. (Vim option: 'guitabtooltip', short: 'gtt')"
+        },
+        "vim-options.helpfile": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "full path name of the main help file. (Vim option: 'helpfile', short: 'hf')"
+        },
+        "vim-options.helpheight": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "minimum height of a new help window. (Vim option: 'helpheight', short: 'hh')"
+        },
+        "vim-options.helplang": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "preferred help languages. (Vim option: 'helplang', short: 'hlg')"
+        },
+        "vim-options.hidden": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "don't unload buffer when it is |abandon|ed. (Vim option: 'hidden', short: 'hid')"
+        },
+        "vim-options.history": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of command-lines that are remembered. (Vim option: 'history', short: 'hi')"
+        },
+        "vim-options.hlsearch": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "highlight matches with last search pattern. (Vim option: 'hlsearch', short: 'hls')"
+        },
+        "vim-options.icon": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "let Vim set the text of the window icon. (Vim option: 'icon', short: 'icon')"
+        },
+        "vim-options.iconstring": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "string to use for the Vim icon text. (Vim option: 'iconstring', short: 'iconstring')"
+        },
+        "vim-options.ignorecase": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "ignore case in search patterns. (Vim option: 'ignorecase', short: 'ic')"
+        },
+        "vim-options.imcmdline": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use IM when starting to edit a command line. (Vim option: 'imcmdline', short: 'imc')"
+        },
+        "vim-options.imdisable": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "do not use the IM in any mode. (Vim option: 'imdisable', short: 'imd')"
+        },
+        "vim-options.iminsert": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use :lmap or IM in Insert mode. (Vim option: 'iminsert', short: 'imi')"
+        },
+        "vim-options.imsearch": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use :lmap or IM when typing a search pattern. (Vim option: 'imsearch', short: 'ims')"
+        },
+        "vim-options.include": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "pattern to be used to find an include file. (Vim option: 'include', short: 'inc')"
+        },
+        "vim-options.includeexpr": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "expression used to process an include line. (Vim option: 'includeexpr', short: 'inex')"
+        },
+        "vim-options.incsearch": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "highlight match while typing search pattern. (Vim option: 'incsearch', short: 'is')"
+        },
+        "vim-options.indentexpr": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "expression used to obtain the indent of a line. (Vim option: 'indentexpr', short: 'inde')"
+        },
+        "vim-options.indentkeys": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "keys that trigger indenting with 'indentexpr'. (Vim option: 'indentkeys', short: 'indk')"
+        },
+        "vim-options.infercase": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "adjust case of match for keyword completion. (Vim option: 'infercase', short: 'inf')"
+        },
+        "vim-options.isfname": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "characters included in file names and pathnames. (Vim option: 'isfname', short: 'isf')"
+        },
+        "vim-options.isident": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "characters included in identifiers. (Vim option: 'isident', short: 'isi')"
+        },
+        "vim-options.iskeyword": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "characters included in keywords. (Vim option: 'iskeyword', short: 'isk')"
+        },
+        "vim-options.isprint": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "printable characters. (Vim option: 'isprint', short: 'isp')"
+        },
+        "vim-options.joinspaces": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "two spaces after a period with a join command. (Vim option: 'joinspaces', short: 'js')"
+        },
+        "vim-options.jumpoptions": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "specifies how jumping is done. (Vim option: 'jumpoptions', short: 'jop')"
+        },
+        "vim-options.keymap": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "name of a keyboard mapping. (Vim option: 'keymap', short: 'kmp')"
+        },
+        "vim-options.keymodel": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "enable starting/stopping selection with keys. (Vim option: 'keymodel', short: 'km')"
+        },
+        "vim-options.keywordprg": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "program to use for the \"K\" command. (Vim option: 'keywordprg', short: 'kp')"
+        },
+        "vim-options.langmap": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "alphabetic characters for other language mode. (Vim option: 'langmap', short: 'lmap')"
+        },
+        "vim-options.langmenu": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "language to be used for the menus. (Vim option: 'langmenu', short: 'lm')"
+        },
+        "vim-options.langremap": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "do apply 'langmap' to mapped characters. (Vim option: 'langremap', short: 'lrm')"
+        },
+        "vim-options.laststatus": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "tells when last window has status lines. (Vim option: 'laststatus', short: 'ls')"
+        },
+        "vim-options.lazyredraw": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "don't redraw while executing macros. (Vim option: 'lazyredraw', short: 'lz')"
+        },
+        "vim-options.lhistory": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum number of location lists in history. (Vim option: 'lhistory', short: 'lhi')"
+        },
+        "vim-options.linebreak": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "wrap long lines at a blank. (Vim option: 'linebreak', short: 'lbr')"
+        },
+        "vim-options.lines": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of lines in the display. (Vim option: 'lines', short: 'lines')"
+        },
+        "vim-options.linespace": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of pixel lines to use between characters. (Vim option: 'linespace', short: 'lsp')"
+        },
+        "vim-options.lisp": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "automatic indenting for Lisp. (Vim option: 'lisp', short: 'lisp')"
+        },
+        "vim-options.lispoptions": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "changes how Lisp indenting is done. (Vim option: 'lispoptions', short: 'lop')"
+        },
+        "vim-options.lispwords": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "words that change how lisp indenting works. (Vim option: 'lispwords', short: 'lw')"
+        },
+        "vim-options.list": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "show <Tab> and <EOL>. (Vim option: 'list', short: 'list')"
+        },
+        "vim-options.listchars": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "characters for displaying in list mode. (Vim option: 'listchars', short: 'lcs')"
+        },
+        "vim-options.loadplugins": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "load plugin scripts when starting up. (Vim option: 'loadplugins', short: 'lpl')"
+        },
+        "vim-options.magic": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "changes special characters in search patterns. (Vim option: 'magic', short: 'magic')"
+        },
+        "vim-options.makeef": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "name of the errorfile for \":make\". (Vim option: 'makeef', short: 'mef')"
+        },
+        "vim-options.makeencoding": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "encoding of external make/grep commands. (Vim option: 'makeencoding', short: 'menc')"
+        },
+        "vim-options.makeprg": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "program to use for the \":make\" command. (Vim option: 'makeprg', short: 'mp')"
+        },
+        "vim-options.matchpairs": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "pairs of characters that \"%\" can match. (Vim option: 'matchpairs', short: 'mps')"
+        },
+        "vim-options.matchtime": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "tenths of a second to show matching paren. (Vim option: 'matchtime', short: 'mat')"
+        },
+        "vim-options.maxcombine": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum nr of combining characters displayed. (Vim option: 'maxcombine', short: 'mco')"
+        },
+        "vim-options.maxfuncdepth": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum recursive depth for user functions. (Vim option: 'maxfuncdepth', short: 'mfd')"
+        },
+        "vim-options.maxmapdepth": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum recursive depth for mapping. (Vim option: 'maxmapdepth', short: 'mmd')"
+        },
+        "vim-options.maxmempattern": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum memory (in Kbyte) used for pattern search. (Vim option: 'maxmempattern', short: 'mmp')"
+        },
+        "vim-options.menuitems": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum number of items in a menu. (Vim option: 'menuitems', short: 'mis')"
+        },
+        "vim-options.mkspellmem": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "memory used before |:mkspell| compresses the tree. (Vim option: 'mkspellmem', short: 'msm')"
+        },
+        "vim-options.modeline": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "recognize modelines at start or end of file. (Vim option: 'modeline', short: 'ml')"
+        },
+        "vim-options.modelineexpr": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "allow setting expression options from a modeline. (Vim option: 'modelineexpr', short: 'mle')"
+        },
+        "vim-options.modelines": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of lines checked for modelines. (Vim option: 'modelines', short: 'mls')"
+        },
+        "vim-options.modifiable": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "changes to the text are not possible. (Vim option: 'modifiable', short: 'ma')"
+        },
+        "vim-options.modified": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "buffer has been modified. (Vim option: 'modified', short: 'mod')"
+        },
+        "vim-options.more": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "pause listings when the whole screen is filled. (Vim option: 'more', short: 'more')"
+        },
+        "vim-options.mouse": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "enable the use of mouse clicks. (Vim option: 'mouse', short: 'mouse')"
+        },
+        "vim-options.mousefocus": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "keyboard focus follows the mouse. (Vim option: 'mousefocus', short: 'mousef')"
+        },
+        "vim-options.mousehide": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "hide mouse pointer while typing. (Vim option: 'mousehide', short: 'mh')"
+        },
+        "vim-options.mousemodel": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "changes meaning of mouse buttons. (Vim option: 'mousemodel', short: 'mousem')"
+        },
+        "vim-options.mousemoveevent": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "report mouse moves with <MouseMove>. (Vim option: 'mousemoveevent', short: 'mousemev')"
+        },
+        "vim-options.mousescroll": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "amount to scroll by when scrolling with a mouse. (Vim option: 'mousescroll', short: 'mousescroll')"
+        },
+        "vim-options.mouseshape": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "shape of the mouse pointer in different modes. (Vim option: 'mouseshape', short: 'mouses')"
+        },
+        "vim-options.mousetime": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "max time between mouse double-click. (Vim option: 'mousetime', short: 'mouset')"
+        },
+        "vim-options.nrformats": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number formats recognized for CTRL-A command. (Vim option: 'nrformats', short: 'nf')"
+        },
+        "vim-options.number": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "print the line number in front of each line. (Vim option: 'number', short: 'nu')"
+        },
+        "vim-options.numberwidth": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of columns used for the line number. (Vim option: 'numberwidth', short: 'nuw')"
+        },
+        "vim-options.omnifunc": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "function for filetype-specific completion. (Vim option: 'omnifunc', short: 'ofu')"
+        },
+        "vim-options.opendevice": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "allow reading/writing devices on MS-Windows. (Vim option: 'opendevice', short: 'odev')"
+        },
+        "vim-options.operatorfunc": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "function to be called for |g@| operator. (Vim option: 'operatorfunc', short: 'opfunc')"
+        },
+        "vim-options.packpath": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of directories used for packages. (Vim option: 'packpath', short: 'pp')"
+        },
+        "vim-options.paragraphs": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "nroff macros that separate paragraphs. (Vim option: 'paragraphs', short: 'para')"
+        },
+        "vim-options.patchexpr": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "expression used to patch a file. (Vim option: 'patchexpr', short: 'pex')"
+        },
+        "vim-options.patchmode": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "keep the oldest version of a file. (Vim option: 'patchmode', short: 'pm')"
+        },
+        "vim-options.path": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of directories searched with \"gf\" et.al.. (Vim option: 'path', short: 'pa')"
+        },
+        "vim-options.preserveindent": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "preserve the indent structure when reindenting. (Vim option: 'preserveindent', short: 'pi')"
+        },
+        "vim-options.previewheight": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "height of the preview window. (Vim option: 'previewheight', short: 'pvh')"
+        },
+        "vim-options.previewwindow": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "identifies the preview window. (Vim option: 'previewwindow', short: 'pvw')"
+        },
+        "vim-options.pumheight": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum number of items to show in the popup menu. (Vim option: 'pumheight', short: 'ph')"
+        },
+        "vim-options.pumwidth": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "minimum width of the popup menu. (Vim option: 'pumwidth', short: 'pw')"
+        },
+        "vim-options.pyxversion": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "Python version used for pyx* commands. (Vim option: 'pyxversion', short: 'pyx')"
+        },
+        "vim-options.quoteescape": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "escape characters used in a string. (Vim option: 'quoteescape', short: 'qe')"
+        },
+        "vim-options.readonly": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "disallow writing the buffer. (Vim option: 'readonly', short: 'ro')"
+        },
+        "vim-options.redrawtime": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "timeout for 'hlsearch' and |:match| highlighting. (Vim option: 'redrawtime', short: 'rdt')"
+        },
+        "vim-options.regexpengine": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "default regexp engine to use. (Vim option: 'regexpengine', short: 're')"
+        },
+        "vim-options.relativenumber": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "show relative line number in front of each line. (Vim option: 'relativenumber', short: 'rnu')"
+        },
+        "vim-options.report": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "threshold for reporting nr. of lines changed. (Vim option: 'report', short: 'report')"
+        },
+        "vim-options.revins": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "inserting characters will work backwards. (Vim option: 'revins', short: 'ri')"
+        },
+        "vim-options.rightleft": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "window is right-to-left oriented. (Vim option: 'rightleft', short: 'rl')"
+        },
+        "vim-options.rightleftcmd": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "commands for which editing works right-to-left. (Vim option: 'rightleftcmd', short: 'rlc')"
+        },
+        "vim-options.ruler": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "show cursor line and column in the status line. (Vim option: 'ruler', short: 'ru')"
+        },
+        "vim-options.rulerformat": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "custom format for the ruler. (Vim option: 'rulerformat', short: 'ruf')"
+        },
+        "vim-options.runtimepath": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of directories used for runtime files. (Vim option: 'runtimepath', short: 'rtp')"
+        },
+        "vim-options.scroll": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "lines to scroll with CTRL-U and CTRL-D. (Vim option: 'scroll', short: 'scr')"
+        },
+        "vim-options.scrollbind": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "scroll in window as other windows scroll. (Vim option: 'scrollbind', short: 'scb')"
+        },
+        "vim-options.scrolljump": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "minimum number of lines to scroll. (Vim option: 'scrolljump', short: 'sj')"
+        },
+        "vim-options.scrolloff": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "minimum nr. of lines above and below cursor. (Vim option: 'scrolloff', short: 'so')"
+        },
+        "vim-options.scrollopt": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "how 'scrollbind' should behave. (Vim option: 'scrollopt', short: 'sbo')"
+        },
+        "vim-options.sections": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "nroff macros that separate sections. (Vim option: 'sections', short: 'sect')"
+        },
+        "vim-options.secure": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "secure mode for reading .vimrc in current dir. (Vim option: 'secure', short: 'secure')"
+        },
+        "vim-options.selection": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "what type of selection to use. (Vim option: 'selection', short: 'sel')"
+        },
+        "vim-options.selectmode": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "when to use Select mode instead of Visual mode. (Vim option: 'selectmode', short: 'slm')"
+        },
+        "vim-options.sessionoptions": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "options for |:mksession|. (Vim option: 'sessionoptions', short: 'ssop')"
+        },
+        "vim-options.shada": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use |shada| file upon startup and exiting. (Vim option: 'shada', short: 'sd')"
+        },
+        "vim-options.shell": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "name of shell to use for external commands. (Vim option: 'shell', short: 'sh')"
+        },
+        "vim-options.shellcmdflag": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "flag to shell to execute one command. (Vim option: 'shellcmdflag', short: 'shcf')"
+        },
+        "vim-options.shellpipe": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "string to put output of \":make\" in error file. (Vim option: 'shellpipe', short: 'sp')"
+        },
+        "vim-options.shellquote": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "quote character(s) for around shell command. (Vim option: 'shellquote', short: 'shq')"
+        },
+        "vim-options.shellredir": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "string to put output of filter in a temp file. (Vim option: 'shellredir', short: 'srr')"
+        },
+        "vim-options.shellslash": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use forward slash for shell file names. (Vim option: 'shellslash', short: 'ssl')"
+        },
+        "vim-options.shelltemp": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "whether to use a temp file for shell commands. (Vim option: 'shelltemp', short: 'stmp')"
+        },
+        "vim-options.shellxescape": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "characters to escape when 'shellxquote' is (. (Vim option: 'shellxescape', short: 'sxe')"
+        },
+        "vim-options.shellxquote": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "like 'shellquote', but include redirection. (Vim option: 'shellxquote', short: 'sxq')"
+        },
+        "vim-options.shiftround": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "round indent to multiple of shiftwidth. (Vim option: 'shiftround', short: 'sr')"
+        },
+        "vim-options.shiftwidth": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of spaces to use for (auto)indent step. (Vim option: 'shiftwidth', short: 'sw')"
+        },
+        "vim-options.shortmess": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of flags, reduce length of messages. (Vim option: 'shortmess', short: 'shm')"
+        },
+        "vim-options.showbreak": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "string to use at the start of wrapped lines. (Vim option: 'showbreak', short: 'sbr')"
+        },
+        "vim-options.showcmd": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "show (partial) command somewhere. (Vim option: 'showcmd', short: 'sc')"
+        },
+        "vim-options.showcmdloc": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "where to show (partial) command. (Vim option: 'showcmdloc', short: 'sloc')"
+        },
+        "vim-options.showfulltag": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "show full tag pattern when completing tag. (Vim option: 'showfulltag', short: 'sft')"
+        },
+        "vim-options.showmatch": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "briefly jump to matching bracket if insert one. (Vim option: 'showmatch', short: 'sm')"
+        },
+        "vim-options.showmode": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "message on status line to show current mode. (Vim option: 'showmode', short: 'smd')"
+        },
+        "vim-options.showtabline": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "tells when the tab pages line is displayed. (Vim option: 'showtabline', short: 'stal')"
+        },
+        "vim-options.sidescroll": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "minimum number of columns to scroll horizontal. (Vim option: 'sidescroll', short: 'ss')"
+        },
+        "vim-options.sidescrolloff": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "min. nr. of columns to left and right of cursor. (Vim option: 'sidescrolloff', short: 'siso')"
+        },
+        "vim-options.signcolumn": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "when and how to display the sign column. (Vim option: 'signcolumn', short: 'scl')"
+        },
+        "vim-options.smartcase": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "no ignore case when pattern has uppercase. (Vim option: 'smartcase', short: 'scs')"
+        },
+        "vim-options.smartindent": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "smart autoindenting for C programs. (Vim option: 'smartindent', short: 'si')"
+        },
+        "vim-options.smarttab": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use 'shiftwidth' when inserting <Tab>. (Vim option: 'smarttab', short: 'sta')"
+        },
+        "vim-options.smoothscroll": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "scroll by screen lines when 'wrap' is set. (Vim option: 'smoothscroll', short: 'sms')"
+        },
+        "vim-options.softtabstop": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of spaces that <Tab> uses while editing. (Vim option: 'softtabstop', short: 'sts')"
+        },
+        "vim-options.spell": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "enable spell checking. (Vim option: 'spell', short: 'spell')"
+        },
+        "vim-options.spellcapcheck": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "pattern to locate end of a sentence. (Vim option: 'spellcapcheck', short: 'spc')"
+        },
+        "vim-options.spellfile": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "files where |zg| and |zw| store words. (Vim option: 'spellfile', short: 'spf')"
+        },
+        "vim-options.spelllang": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "language(s) to do spell checking for. (Vim option: 'spelllang', short: 'spl')"
+        },
+        "vim-options.spelloptions": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "options for spell checking. (Vim option: 'spelloptions', short: 'spo')"
+        },
+        "vim-options.spellsuggest": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "method(s) used to suggest spelling corrections. (Vim option: 'spellsuggest', short: 'sps')"
+        },
+        "vim-options.splitbelow": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "new window from split is below the current one. (Vim option: 'splitbelow', short: 'sb')"
+        },
+        "vim-options.splitkeep": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "determines scroll behavior for split windows. (Vim option: 'splitkeep', short: 'spk')"
+        },
+        "vim-options.splitright": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "new window is put right of the current one. (Vim option: 'splitright', short: 'spr')"
+        },
+        "vim-options.startofline": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "commands move cursor to first non-blank in line. (Vim option: 'startofline', short: 'sol')"
+        },
+        "vim-options.statuscolumn": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "custom format for the status column. (Vim option: 'statuscolumn', short: 'stc')"
+        },
+        "vim-options.statusline": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "custom format for the status line. (Vim option: 'statusline', short: 'stl')"
+        },
+        "vim-options.suffixes": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "suffixes that are ignored with multiple match. (Vim option: 'suffixes', short: 'su')"
+        },
+        "vim-options.suffixesadd": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "suffixes added when searching for a file. (Vim option: 'suffixesadd', short: 'sua')"
+        },
+        "vim-options.swapfile": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "whether to use a swapfile for a buffer. (Vim option: 'swapfile', short: 'swf')"
+        },
+        "vim-options.switchbuf": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "sets behavior when switching to another buffer. (Vim option: 'switchbuf', short: 'swb')"
+        },
+        "vim-options.synmaxcol": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum column to find syntax items. (Vim option: 'synmaxcol', short: 'smc')"
+        },
+        "vim-options.syntax": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "syntax to be loaded for current buffer. (Vim option: 'syntax', short: 'syn')"
+        },
+        "vim-options.tabclose": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "which tab page to focus when closing a tab. (Vim option: 'tabclose', short: 'tcl')"
+        },
+        "vim-options.tabline": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "custom format for the console tab pages line. (Vim option: 'tabline', short: 'tal')"
+        },
+        "vim-options.tabpagemax": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum number of tab pages for |-p| and \"tab all\". (Vim option: 'tabpagemax', short: 'tpm')"
+        },
+        "vim-options.tabstop": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of spaces that <Tab> in file uses. (Vim option: 'tabstop', short: 'ts')"
+        },
+        "vim-options.tagbsearch": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use binary searching in tags files. (Vim option: 'tagbsearch', short: 'tbs')"
+        },
+        "vim-options.tagcase": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "how to handle case when searching in tags files. (Vim option: 'tagcase', short: 'tc')"
+        },
+        "vim-options.tagfunc": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "function to get list of tag matches. (Vim option: 'tagfunc', short: 'tfu')"
+        },
+        "vim-options.taglength": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "number of significant characters for a tag. (Vim option: 'taglength', short: 'tl')"
+        },
+        "vim-options.tagrelative": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "file names in tag file are relative. (Vim option: 'tagrelative', short: 'tr')"
+        },
+        "vim-options.tags": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of file names used by the tag command. (Vim option: 'tags', short: 'tag')"
+        },
+        "vim-options.tagstack": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "push tags onto the tag stack. (Vim option: 'tagstack', short: 'tgst')"
+        },
+        "vim-options.term": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "name of the terminal. (Vim option: 'term', short: 'term')"
+        },
+        "vim-options.termbidi": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "terminal takes care of bi-directionality. (Vim option: 'termbidi', short: 'tbidi')"
+        },
+        "vim-options.termguicolors": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "enable 24-bit RGB color in the TUI. (Vim option: 'termguicolors', short: 'tgc')"
+        },
+        "vim-options.textwidth": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum width of text that is being inserted. (Vim option: 'textwidth', short: 'tw')"
+        },
+        "vim-options.thesaurus": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "list of thesaurus files for keyword completion. (Vim option: 'thesaurus', short: 'tsr')"
+        },
+        "vim-options.thesaurusfunc": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "function to be used for thesaurus completion. (Vim option: 'thesaurusfunc', short: 'tsrfu')"
+        },
+        "vim-options.tildeop": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "tilde command \"~\" behaves like an operator. (Vim option: 'tildeop', short: 'top')"
+        },
+        "vim-options.timeout": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "time out on mappings and key codes. (Vim option: 'timeout', short: 'to')"
+        },
+        "vim-options.timeoutlen": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "time out time in milliseconds. (Vim option: 'timeoutlen', short: 'tm')"
+        },
+        "vim-options.title": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "let Vim set the title of the window. (Vim option: 'title', short: 'title')"
+        },
+        "vim-options.titlelen": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "percentage of 'columns' used for window title. (Vim option: 'titlelen', short: 'titlelen')"
+        },
+        "vim-options.titleold": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "old title, restored when exiting. (Vim option: 'titleold', short: 'titleold')"
+        },
+        "vim-options.titlestring": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "string to use for the Vim window title. (Vim option: 'titlestring', short: 'titlestring')"
+        },
+        "vim-options.ttimeout": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "time out on mappings. (Vim option: 'ttimeout', short: 'ttimeout')"
+        },
+        "vim-options.ttimeoutlen": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "time out time for key codes in milliseconds. (Vim option: 'ttimeoutlen', short: 'ttm')"
+        },
+        "vim-options.ttytype": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "alias for 'term'. (Vim option: 'ttytype', short: 'tty')"
+        },
+        "vim-options.undodir": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "where to store undo files. (Vim option: 'undodir', short: 'udir')"
+        },
+        "vim-options.undofile": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "save undo information in a file. (Vim option: 'undofile', short: 'udf')"
+        },
+        "vim-options.undolevels": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "maximum number of changes that can be undone. (Vim option: 'undolevels', short: 'ul')"
+        },
+        "vim-options.undoreload": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "max nr of lines to save for undo on a buffer reload. (Vim option: 'undoreload', short: 'ur')"
+        },
+        "vim-options.updatecount": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "after this many characters flush swap file. (Vim option: 'updatecount', short: 'uc')"
+        },
+        "vim-options.updatetime": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "after this many milliseconds flush swap file. (Vim option: 'updatetime', short: 'ut')"
+        },
+        "vim-options.varsofttabstop": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "a list of number of spaces when typing <Tab>. (Vim option: 'varsofttabstop', short: 'vsts')"
+        },
+        "vim-options.vartabstop": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "a list of number of spaces for <Tab>s. (Vim option: 'vartabstop', short: 'vts')"
+        },
+        "vim-options.verbose": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "give informative messages. (Vim option: 'verbose', short: 'vbs')"
+        },
+        "vim-options.verbosefile": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "file to write messages in. (Vim option: 'verbosefile', short: 'vfile')"
+        },
+        "vim-options.viewdir": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "directory where to store files with :mkview. (Vim option: 'viewdir', short: 'vdir')"
+        },
+        "vim-options.viewoptions": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "specifies what to save for :mkview. (Vim option: 'viewoptions', short: 'vop')"
+        },
+        "vim-options.virtualedit": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "when to use virtual editing. (Vim option: 'virtualedit', short: 've')"
+        },
+        "vim-options.visualbell": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use visual bell instead of beeping. (Vim option: 'visualbell', short: 'vb')"
+        },
+        "vim-options.warn": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "warn for shell command when buffer was changed. (Vim option: 'warn', short: 'warn')"
+        },
+        "vim-options.whichwrap": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "allow specified keys to cross line boundaries. (Vim option: 'whichwrap', short: 'ww')"
+        },
+        "vim-options.wildchar": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "command-line character for wildcard expansion. (Vim option: 'wildchar', short: 'wc')"
+        },
+        "vim-options.wildcharm": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "like 'wildchar' but also works when mapped. (Vim option: 'wildcharm', short: 'wcm')"
+        },
+        "vim-options.wildignore": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "files matching these patterns are not completed. (Vim option: 'wildignore', short: 'wig')"
+        },
+        "vim-options.wildignorecase": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "ignore case when completing file names. (Vim option: 'wildignorecase', short: 'wic')"
+        },
+        "vim-options.wildmenu": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "use menu for command line completion. (Vim option: 'wildmenu', short: 'wmnu')"
+        },
+        "vim-options.wildmode": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "mode for 'wildchar' command-line expansion. (Vim option: 'wildmode', short: 'wim')"
+        },
+        "vim-options.wildoptions": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "specifies how command line completion is done. (Vim option: 'wildoptions', short: 'wop')"
+        },
+        "vim-options.winaltkeys": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "when the windows system handles ALT keys. (Vim option: 'winaltkeys', short: 'wak')"
+        },
+        "vim-options.window": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "nr of lines to scroll for CTRL-F and CTRL-B. (Vim option: 'window', short: 'wi')"
+        },
+        "vim-options.winfixbuf": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "keep window focused on a single buffer. (Vim option: 'winfixbuf', short: 'wfb')"
+        },
+        "vim-options.winfixheight": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "keep window height when opening/closing windows. (Vim option: 'winfixheight', short: 'wfh')"
+        },
+        "vim-options.winfixwidth": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "keep window width when opening/closing windows. (Vim option: 'winfixwidth', short: 'wfw')"
+        },
+        "vim-options.winheight": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "minimum number of lines for the current window. (Vim option: 'winheight', short: 'wh')"
+        },
+        "vim-options.winhighlight": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "window-local highlighting. (Vim option: 'winhighlight', short: 'winhl')"
+        },
+        "vim-options.winminheight": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "minimum number of lines for any window. (Vim option: 'winminheight', short: 'wmh')"
+        },
+        "vim-options.winminwidth": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "minimal number of columns for any window. (Vim option: 'winminwidth', short: 'wmw')"
+        },
+        "vim-options.winwidth": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "minimal number of columns for current window. (Vim option: 'winwidth', short: 'wiw')"
+        },
+        "vim-options.wrap": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "long lines wrap and continue on the next line. (Vim option: 'wrap', short: 'wrap')"
+        },
+        "vim-options.wrapmargin": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "chars from the right where wrapping starts. (Vim option: 'wrapmargin', short: 'wm')"
+        },
+        "vim-options.wrapscan": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "searches wrap around the end of the file. (Vim option: 'wrapscan', short: 'ws')"
+        },
+        "vim-options.write": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "writing to a file is allowed. (Vim option: 'write', short: 'write')"
+        },
+        "vim-options.writeany": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "write to file with no need for \"!\" override. (Vim option: 'writeany', short: 'wa')"
+        },
+        "vim-options.writebackup": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "make a backup before overwriting a file. (Vim option: 'writebackup', short: 'wb')"
+        },
+        "vim-options.writedelay": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ],
+          "default": null,
+          "description": "delay this many msec for each char (for debug). (Vim option: 'writedelay', short: 'wd')"
+        }
+      }
     },
     "commands": []
   }
