@@ -1,6 +1,6 @@
 {
   "name": "@statiolake/coc-vim-options",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Set vim options from coc-settings.json",
   "author": "statiolake <statiolake@gmail.com>",
   "license": "MIT",
