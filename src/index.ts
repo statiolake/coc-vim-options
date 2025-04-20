@@ -55,6 +55,9 @@ async function updateOptions(): Promise<void> {
       continue;
     }
 
+    // null is a default value; must be ignored.
+    if (config[option] == null) continue;
+
     await buffer.setOption(option, config[option]);
     channel.appendLine(`set: ${option} => ${await buffer.getOption(option)}`);
   }
